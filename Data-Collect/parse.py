@@ -4,10 +4,12 @@ import argparse
 def parse_args():
     parser = argparse.ArgumentParser()
 
-    parser.add_argument("--dataset", nargs="?", default="HotpotQA", choices=["HotpotQA", 'IIRC', '2WikiMQA', 'MuSiQue'])
-    parser.add_argument("--n_processes", type=int, default = 8)
+    parser.add_argument("--dataset", nargs="?", default="Devrev", choices=["HotpotQA", 'IIRC', '2WikiMQA', 'MuSiQue','Devrev'])
+    parser.add_argument("--n_processes", type=int, default = 1) ## CHANGED FROM 8 to 1
 
-    parser.add_argument("--kg", nargs="?", default="MDR-KNN", choices=["TF-IDF", "KNN", "wiki_spacy", "TAGME", "MDR-KNN"])
+    parser.add_argument("--file_path",type=str)
+
+    parser.add_argument("--kg", nargs="?", default="TF-IDF", choices=["TF-IDF", "KNN", "wiki_spacy", "TAGME", "MDR-KNN"])
 
     parser.add_argument("--n_kw", type=int, default=50)
     parser.add_argument("--min_n", type=int, default=1)
