@@ -4,7 +4,7 @@ from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
 import torch
 
-nlp = spacy.load('en_core_web_lg')
+nlp = spacy.load('en_core_web_sm')
 stops = set(stopwords.words('english'))
 symbols = "!\"#$%&()*+-./:;<=>?@[\]^_`{|}~\n"
 stemmer = PorterStemmer()
