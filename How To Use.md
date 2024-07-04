@@ -1,0 +1,26 @@
+# This file explains how to use the code
+- **Step-1**:
+  - Go to **Data-Collect/Devrev/create-data.ipynb** and use this to **create test_docs.json** file from knowledge base and csv file available. (Check delimiter and set as required)
+  - test_docs.json will have the following:
+    - Question
+    - Answer
+    - Supports: For each question, the relevant chunks with title for each chunk
+    - title_chunks: corpus i.e., all the available chunks with title
+    - title
+  - Copy this test_docs.json to **Pipeline/dataset/Devrev/** folder
+- **Step-2**:
+  - In Data-Collect folder, **main2.py, graph_construction2.py and utils.py** are used for graph construction. Check **parse.py** for the required args.
+  - **graph_construction2.py** has code such that it uses 'title_chunks' for only first item in test_docs.json because the title_chunks (corpus) are same for every question.
+  - General command to run: ```python main2.py --file_path "test_docs.json" --kg "{KG construction-method}"```
+  - This should create graph.pkl file in **Data-Collect/Devrev/** folder
+  - Copy this to **Pipeline/dataset/Devrev/** folder
+- **Step-3**:
+  - In Pipeline folder, **main2.py, retriever2.py and utils.py** are used for graph construction. Check **parse.py** for the required args.
+  - General command to run: ```python main2.py --retriever "KGP w/o LLM" --k 5 --kg "{graph_pickle_name without '.pkl' extension}"```
+  - This will create json file in **Pipeline/result/Devrev/** folder which contains question, answer, corpus, supports etc., details.
+  - For KGP w/o LLM retriever, the corpus of the created json file contains list of retrieved chunks of format list([{title},{chunk},{level}])
+  - Where level = 0  implies, it is node selected from graph based on graph initially
+  - level = 1 implies, it is neighbour of level=0 nodes
+  - level = 2 implies, it is neighbour of level=1 nodes and so on
+- **Step-4**:
+  - **Result Analysis.ipynb** can be used for evaluation using the 'result/devrev/' files.   
