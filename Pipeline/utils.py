@@ -5,7 +5,7 @@ import spacy
 import requests
 import json
 
-nlp = spacy.load('en_core_web_lg')
+nlp = spacy.load('en_core_web_sm')
 
 
 def tf_idf(seed, candidates_idx, corpus, k, visited):
@@ -16,7 +16,7 @@ def tf_idf(seed, candidates_idx, corpus, k, visited):
 
         query_emb = vectorizer.transform([seed])
         cosine_sim = cosine_similarity(query_emb, tfidf_matrix).flatten()
-        idxs = cosine_sim.argsort()[::-1]
+        idxs = cosine_sim.argsort()[::-1] 
 
         tmp_idxs = []
         for idx in idxs:
