@@ -1,0 +1,861 @@
+source,question,sources,answer
+devrev-dev0,What are articles?,['devrev-dev0---article-908'],"Articles are pieces of information about your product or organization that are stored in a knowledge base. They are used to answer customer queries and provide self-service support. Articles are associated with a specific part (product or service) and can be created by internal users. Customers can search across articles to find answers to their questions, reducing the need to wait for support team assistance."
+devrev-dev0,How can articles be found?,['devrev-dev0---article-908'],"Articles can be found in the DevRev customer portal under the ""Knowledge Base"" section. Customers can search for articles using keywords or browse through different categories to find the information they are looking for."
+devrev-dev0,What are the status of an article?,['devrev-dev0---article-908'],"The status of an article can be one of the following:
+
+1. Draft: The article is still being worked on and is not ready to be released to the public. Edits can be made at this stage.
+
+2. Published: The article has been released to the public and is available for customers to search and access.
+
+3. Review needed: The article is awaiting approval and needs to be reviewed by others before it can be released.
+
+4. Archived: The article is outdated or no longer required and has been removed from the knowledge base."
+devrev-dev0,What does draft status of article mean?,['devrev-dev0---article-908'],"The draft status of an article means that it is not ready to be released to the public. At this stage, the article is still being worked on and can be edited. It is not accessible to customers or users of the knowledge base."
+devrev-dev0,What does published status of article mean?,['devrev-dev0---article-908'],"The published status of an article means that it has been released to the public and is available for customers to access and search for in the knowledge base. Once an article is published, it can be viewed by customers and used to answer their queries."
+devrev-dev0,What does Review needed status of article mean?,['devrev-dev0---article-908'],"The ""Review needed"" status of an article means that the article has been created but it requires approval and review by others before it can be released to the public. This status indicates that the article is currently being reviewed by internal users or stakeholders to ensure its accuracy, relevance, and quality. Once the review process is complete and any necessary edits or changes have been made, the article can be published and made available to customers."
+devrev-dev0,What does Archived status of article mean?,['devrev-dev0---article-908'],The Archived status of an article means that the article is outdated and no longer required. It can be removed from the knowledge base as it is no longer relevant or useful.
+devrev-dev0,What does routing mean?,['devrev-dev0---article-906'],"Routing refers to the process of determining the appropriate group or team responsible for handling a conversation or ticket. It ensures that inquiries are directed to the right team for efficient resolution. Routing can be based on factors such as time of creation or the content of the inquiry, allowing it to be directed to teams with expertise in specific parts of a product or service."
+devrev-dev0,What are the supported routing scenerios?,['devrev-dev0---article-906'],The supported routing scenarios in DevRev are based on time and content. Tickets or conversations can be assigned to teams based on their time of creation or routed to teams with expertise in specific parts of your product.
+devrev-dev0,How does assignment complement routing?,['devrev-dev0---article-906'],"Assignment complements routing by identifying the owner of a conversation or ticket within the designated team. Once a ticket or conversation is routed to a specific team based on factors like time, content, attribute, or load, the assignment feature assigns the ticket to a specific team member within that team. This ensures that there is a clear owner responsible for resolving the inquiry and prevents any confusion or duplication of efforts within the team. The assignment feature helps distribute the workload evenly among team members and ensures that each ticket or conversation is handled by an available team member."
+devrev-dev0,What are the assignment scenerios?,['devrev-dev0---article-906'],"The assignment scenarios in DevRev are based on the following factors:
+
+1. Time: Tickets or conversations can be assigned based on their time of creation. This is useful when teams operate across different time zones.
+
+2. Content: Inquiries can be routed to teams with expertise in specific parts of the product. This ensures that the customer query is handled by the most knowledgeable team.
+
+3. Attribute: Ticket routing can be customized based on specific attributes or custom parameters relevant to your workflow. This allows for more targeted assignment of tickets.
+
+4. Load: New requests can be assigned to team members with the fewest open requests. This helps distribute the workload evenly among team members.
+
+5. Availability: New requests can be exclusively assigned to users who have set their status as ""online"" on DevRev. This ensures that tickets are assigned to team members who are currently available to handle them.
+
+These assignment scenarios help optimize the ticket routing process and ensure efficient handling of customer queries."
+devrev-dev0,What is customer escalation?,['devrev-dev0---article-906'],Customer escalation is a process where a customer requests special attention or immediate action for a particular issue or request. It is a way for the customer to signal that the ticket requires urgent resolution or additional resources. Escalations are typically used when the regular support process is not meeting the customer&apos;s needs or when the issue is critical and requires immediate attention.
+devrev-dev0,Can we customize ticket routing based on specific attributes ?,['devrev-dev0---article-906'],"Yes, you can customize ticket routing based on specific attributes in DevRev. This allows you to route inquiries to teams or team members with expertise in specific parts of your product or based on other custom parameters relevant to your workflow."
+devrev-dev0,How to set up customer admins?,['devrev-dev0---article-806'],"To set up customer admins in DevRev, follow these steps:
+
+1. Log in to your DevRev app with your registered email address.
+2. Go to Settings > User management > Groups > Customer Admins.
+3. Click on the ""Add User"" option in the top-right corner.
+4. Search for the customer whom you want to designate as a customer admin.
+5. Select the customer from the search results.
+6. Save the changes.
+
+By following these steps, you can designate customers as customer admins, allowing them to view not only their own tickets but also all the tickets raised by other users from their organization."
+devrev-dev0,How do I log in to the customer portal? What credentials do I need?,['devrev-dev0---article-806'],"To log in to the customer portal, you will need your registered email address and an OTP (One-Time Password) sent to that email address. Simply enter your email address and the OTP on the login page to access the customer portal."
+devrev-dev0,How do I create a ticket using the customer portal?,['devrev-dev0---article-806'],"To create a ticket using the customer portal, you need to follow these steps:
+
+1. Go to the customer portal of your support site.
+2. Look for the option to create a ticket. This option may be available on the homepage or in the navigation menu.
+3. Click on the ""Create Ticket"" or similar button.
+4. Fill in the required information in the ticket creation form. This may include details like the subject of the ticket, description of the issue, and any attachments if necessary.
+5. Once you have filled in all the required information, click on the ""Submit"" or ""Create"" button to create the ticket.
+6. Your ticket will be created and submitted to the support team for further assistance.
+
+Please note that the availability and appearance of the ticket creation option may vary depending on the customization settings of your support portal."
+devrev-dev0,What is the difference between a regular customer and a customer admin in terms of portal access?,['devrev-dev0---article-806'],"A regular customer can log in to the customer portal and see only the tickets that they have created. They do not have access to view tickets created by other users from their organization.
+
+On the other hand, a customer admin has additional privileges. They can log in to the customer portal and not only see their own tickets but also view all the tickets raised by other users from their organization. This allows them to have a broader view of the tickets and provide support or assistance to their colleagues if needed."
+devrev-dev0,"Can I designate multiple people within my organization as customer admins? If yes, how?",['devrev-dev0---article-806'],"Yes, you can designate multiple people within your organization as customer admins in DevRev. To do this, follow these steps:
+
+1. Log in to your DevRev app with your registered email address.
+2. Go to Settings > User management > Groups > Customer Admins.
+3. Click on the ""Add User"" option in the top-right corner.
+4. Search for the customer whom you want to designate as a customer admin.
+5. Select the customer from the search results and add them as a customer admin.
+
+You can repeat these steps to add multiple customer admins from the same organization."
+devrev-dev0,How can I personalize the look of our support portal to match our company's branding?,['devrev-dev0---article-806'],"To personalize the look of your support portal to match your company's branding, you can follow these steps:
+
+1. Log in to your DevRev account and go to Settings.
+2. Under the Support section, click on Portal Settings.
+3. In the Configuration tab, you can enter your site name and upload your company logo. This will help in branding your support portal.
+4. If you want to add social media and text links to the footer of your portal, you can turn on the footer and enter the relevant information in their respective fields.
+5. In the Styling tab, you can upload a banner image that reflects your company&apos;s branding. The recommended ratio for the banner image is 6:1.
+6. You can also choose between light and dark mode for the appearance of your portal and select an accent color that matches your branding.
+7. Under the Tabs tab, you have the option to enable ticket creation from the portal. You can also assign a default owner and part for the tickets created through the portal.
+8. If you want to display a custom title and description on the banner of your portal, you can turn on the Enable banner toggle and enter the desired text.
+9. Once you have made all the desired changes, click on Set live to make the personalized look visible on your support portal.
+
+Please note that if you do not see the option to customize the support portal, it could be because you do not have admin access to your DevRev instance. In that case, you should reach out to your admin for assistance."
+devrev-dev0,What information should be included in the survey introductory text?,['devrev-dev0---article-812'],"The survey introductory text should include information about the purpose of the survey, what it aims to gather feedback on, and any specific instructions or guidelines for completing the survey. It should also mention the expected duration of the survey and assure customers that their responses will be kept confidential."
+devrev-dev0,How can the survey response scale be tailored to suit customer preferences?,['devrev-dev0---article-812'],The survey response scale in DevRev can be customized to suit customer preferences. You can specify the response options that customers can choose from when answering the survey questions. This allows you to tailor the scale to align with your specific needs and the preferences of your customers.
+devrev-dev0,"In the CSAT on ticket configuration, where can you specify the channel for survey distribution?",['devrev-dev0---article-812'],"In the CSAT on ticket configuration, you can specify the channel for survey distribution by selecting the desired channel in the ""Survey channel"" option."
+devrev-dev0,How can I quickly find answers to my questions using the QA feature?,['devrev-dev0---article-907'],"To quickly find answers to your questions using the QA feature, you can follow these steps:
+
+1. Open the DevRev app.
+2. Look for the search bar at the top of the app.
+3. Press cmd+K on Mac or Ctrl+K on Windows to open the search bar.
+4. Type in keywords related to your question in the search bar.
+5. As you type, the search bar will display relevant QAs from the Knowledge Base (KB) section.
+6. Review the displayed QAs to find the one that best matches your question.
+7. Click on the QA to view the full question and answer.
+8. Read the answer provided to find the information you are looking for.
+
+By following these steps, you can quickly find answers to your questions using the QA feature in the DevRev app."
+devrev-dev0,How does the Link preview snap-in streamline the user experience in DevRev?,['devrev-dev0---article-950'],"The Link preview snap-in in DevRev streamlines the user experience by providing real-time previews of hyperlinks, issues, tickets, and components. It automatically generates overviews without the need for manual navigation. This saves time and effort for users as they can quickly access key details such as title, description, status, owner, priority, and stage without having to open multiple tabs or pages. This context-rich display enhances collaboration in project management, support, and development, enabling efficient communication and decision-making."
+devrev-dev0,What types of items can the Link preview snap-in generate real-time previews for?,['devrev-dev0---article-950'],"The Link preview snap-in can generate real-time previews for hyperlinks, issues, tickets, and components."
+devrev-dev0,How can I ensure that my question remains private or is visible only to certain users within DevRev?,['devrev-dev0---article-888'],"To ensure that your question remains private or is visible only to certain users within DevRev, you can follow these steps:
+
+1. Check the privacy settings: DevRev provides privacy settings that allow you to control who can see your questions. Make sure to review and adjust these settings according to your preferences.
+
+2. Use private messaging: If you want to communicate with specific users privately, you can utilize the private messaging feature within DevRev. This allows you to have one-on-one conversations without the content being visible to others.
+
+3. Restrict visibility within groups: If your question is posted within a group or community, you can check if there are options to restrict the visibility of your question to only certain members of that group. This way, only selected individuals will be able to see and respond to your question.
+
+4. Contact DevRev support: If you have specific requirements regarding the visibility of your question, you can reach out to DevRev support for further assistance. They can provide guidance on how to ensure your question remains private or is visible only to specific users within the platform.
+
+Remember to review the platform&apos;s privacy settings and features to understand the available options for controlling the visibility of your questions."
+devrev-dev0,How often are the QAs updated to ensure they have the latest information?,['devrev-dev0---article-907'],The QAs are regularly updated to ensure they have the latest information. This allows us to provide accurate and up-to-date answers to customer queries.
+devrev-dev0,"In DevRev, where can you find the Link preview snap-in for installation?",['devrev-dev0---article-950'],"In DevRev, you can find the Link preview snap-in for installation in the marketplace. To access the marketplace, go to Settings > Snap-ins and click on ""Explore Marketplace"" in the top-right corner. From there, you can search for the Link preview snap-in and click on ""Install"" to begin the installation process."
+devrev-dev0,What key details does the Link preview snap-in display for efficient communication and decision-making?,['devrev-dev0---article-950'],"The Link preview snap-in displays key details such as title, description, status, owner, priority, and stage for efficient communication and decision-making."
+devrev-dev0,Describe the steps involved in installing and deploying the Link preview snap-in in DevRev.,['devrev-dev0---article-950'],"To install and deploy the Link preview snap-in in DevRev, follow these steps:
+
+1. In DevRev, go to Settings > Snap-ins.
+2. Click on ""Explore Marketplace"" in the top-right corner.
+3. In the DevRev marketplace, search for ""Link preview"" and click on it.
+4. Click on the ""Install"" button to initiate the installation process.
+5. Once the installation is complete, go back to DevRev.
+6. Confirm the installation by navigating to Settings > Snap-ins again.
+7. Find the Link preview snap-in and click on ""Deploy"" to make it available for use.
+
+Following these steps will successfully install and deploy the Link preview snap-in in DevRev."
+devrev-dev0,How does the Sentiment evaluator snap-in facilitate obtaining feedback from customer conversations?,['devrev-dev0---article-814'],"The Sentiment evaluator snap-in facilitates obtaining feedback from customer conversations by automatically analyzing the sentiment of the texts exchanged during the conversation. It categorizes the sentiment into five categories: frustrated, unhappy, neutral, happy, or delighted. This analysis provides actionable insights into customer sentiment, allowing customer experience engineers to understand and address customer feedback effectively. The snap-in works seamlessly on all platforms like PLuG, Slack, or any other medium where customer conversations take place, providing accurate analysis to help organizations better understand their customers."
+devrev-dev0,On which platforms does the Sentiment evaluator work to analyze customer sentiment?,['devrev-dev0---article-814'],"The Sentiment evaluator snap-in works on all platforms like PLuG, Slack, or any other medium where customer conversation takes place."
+devrev-dev0,What steps are involved in installing and deploying the Sentiment evaluator snap-in from the DevRev marketplace?,['devrev-dev0---article-814'],"To install and deploy the Sentiment evaluator snap-in from the DevRev marketplace, you need to follow these steps:
+
+1. Go to the DevRev marketplace.
+2. Search for the Sentiment evaluator snap-in.
+3. Click on the snap-in to view its details.
+4. Select the dev org where you want to install the snap-in.
+5. Confirm the installation by following the prompts.
+6. Once the installation is complete, click on the ""Deploy snap-in"" button.
+
+After completing these steps, the Sentiment evaluator snap-in will be installed and deployed in your selected dev org. The feedback from the Sentiment evaluator will be visible only to the dev users of your organization."
+devrev-dev0,"Can I track the progress of current, next, and backlog sprints simultaneously?",['devrev-dev0---article-835'],"Yes, you can track the progress of current, next, and backlog sprints simultaneously in DevRev. The Now, Next, Later approach allows you to categorize and prioritize work items into these three buckets. You can view and manage the issues under each stage in the DevRev app under Build > Now, Next, Later. This way, you can track the progress of the current sprint, plan for the next sprint, and prioritize backlog items for future sprints."
+devrev-dev0,What should I do if I come across a QA that seems outdated or incorrect?,['devrev-dev0---article-907'],"If you come across a QA that seems outdated or incorrect, you can follow these steps:
+
+1. Notify the support team: Reach out to the support team and inform them about the outdated or incorrect QA. They will be able to review and update the information accordingly.
+
+2. Provide details: When notifying the support team, provide specific details about the QA, such as the question, answer, and any relevant information that highlights the outdated or incorrect nature of the QA.
+
+3. Share your feedback: If you have any suggestions or recommendations for improving the QA, feel free to share them with the support team. Your feedback can help in enhancing the accuracy and relevance of the QAs.
+
+Remember, it is important to rely on the support team to address and update the QAs as they have the necessary knowledge and authority to make the required changes."
+devrev-dev0,"What is the purpose of backlog grooming, and who should engage in it?",['devrev-dev0---article-830'],"The purpose of backlog grooming is to review and refine the items in the backlog to ensure they are ready for development. It involves clarifying requirements, estimating effort, and prioritizing the backlog items. 
+
+The team members who should engage in backlog grooming are typically the product owner, scrum master, and development team. They collaborate to ensure that the backlog items are well-defined, properly prioritized, and ready for development."
+devrev-dev0,How do I share sprint boards with specific team members or collaborators?,['devrev-dev0---article-833'],"To share sprint boards with specific team members or collaborators, you can follow these steps:
+
+1. Open the sprint board that you want to share.
+2. Click on the ""Share"" option located in the toolbar at the top of the screen.
+3. In the ""Share with others"" dialog box, enter the email addresses or names of the team members or collaborators you want to share the board with.
+4. Choose the appropriate permission level for each person (read-only or read-write).
+5. Click on the ""Share"" button to grant access to the sprint board.
+
+Once you have shared the sprint board, the team members or collaborators will be able to see it on the left navigation bar under ""Shared with me"". They will also be able to view and interact with the sprint board according to the permissions you have granted them."
+devrev-dev0,How do I visualize and understand insights related to a sprint's progress?,['devrev-dev0---article-846'],"To visualize and understand insights related to a sprint's progress, you can use the Sprint Insights feature in DevRev. Here are the key highlights of this feature:
+
+1. Burn-down chart: This chart visualizes sprint progress by showing the ""scope change over time"" and ""changes in work remaining over time"". It represents the total incomplete issues over time and the total work remaining on issues linked to customer requests.
+
+2. Filters for focused analysis: You can apply filters at the top of the page for &apos;Part&apos;, &apos;Owner&apos;, and &apos;Priority&apos;. This allows you to have greater control and flexibility when analyzing the performance of your sprints.
+
+3. High-level breakdown of work: Sprint Insights provides data-driven insights to help answer questions like how much development work is focused on new features and how much is customer-requested. This helps you gain deeper insights into the type of work within your sprints.
+
+4. Issue distribution: You can use Sprint Insights to understand the distribution of work across stages, owners, priority, and parts of your product.
+
+5. Sprint health: Sprint Insights provides a snapshot of sprint health by capturing key metrics like the percentage of work completed, time remaining in the sprint, and overall scope change since the start of the sprint.
+
+6. Time spent per stage: You can view and analyze the average time spent in each stage since the beginning of the sprint. This helps developers reflect on which stages of their work are taking up the most time.
+
+By utilizing these features, you can gain valuable insights into your sprint&apos;s progress and make informed decisions to optimize team performance and achieve your sprint goals."
+devrev-dev0,What does the burn-down chart in sprint insights depict?,['devrev-dev0---article-833'],"The burn-down chart in sprint insights depicts the progress of a sprint over time. It shows the total number of incomplete issues over time, as well as a specific line that represents how much work is left on issues directly linked to customer asks. This chart helps visualize the scope change and changes in work remaining throughout the sprint."
+devrev-dev0,How to create child issues?,['devrev-dev0---article-833'],"To create child issues in DevRev, follow these steps:
+
+1. Select the issue for which you want to create a child issue.
+2. Click on the ""+Link issues"" button.
+3. From the dropdown menu, select the ""Child"" option.
+4. You can now search for an existing issue to add as a child or create a new issue by clicking on ""+New Issue"".
+5. Provide a title, description, and owner for the child issue.
+6. Click on ""Create"" to create the child issue.
+
+Please note that the ability to create child issues may require write permission, which can be granted by clicking on the ""Share"" button and entering the email or name of the person you want to grant permission to."
+devrev-dev0,How can I track the progress of enhancements using the Roadmap feature?,['devrev-dev0---article-954'],"You can track the progress of enhancements using the Roadmap feature in DevRev by following the current progress of your enhancements in the ""Now"" stage. The Roadmap allows you to set a target close date for each enhancement, which can help you predict the time it might take to finish. By monitoring the stage and target close date of each enhancement, you can effectively track their progress and stay updated on their status."
+devrev-dev0,What specific information can I track in the list view of the Roadmap?,['devrev-dev0---article-954'],"In the list view of the Roadmap, you can track the following information:
+
+1. Stage: You can see the current progress of each enhancement in the ""Stage"" column. This helps you understand where each enhancement stands in terms of development or implementation.
+
+2. Target Close Date: The ""Target Close Date"" column provides an estimated date by which the enhancement is expected to be completed. This allows you to predict the time it might take to finish each enhancement.
+
+3. Tickets: The list view also allows you to track customer requests related to each enhancement through tickets. This helps you evaluate the total customer impact of each enhancement.
+
+4. Opportunities: You can also track opportunities linked to each enhancement. This provides insights into potential revenue associated with the enhancement.
+
+By tracking these details in the list view of the Roadmap, you can effectively manage and prioritize enhancements based on customer impact, evaluation of tickets, and potential revenue."
+devrev-dev0,How are customer requests related to enhancements tracked within the Roadmap?,['devrev-dev0---article-954'],"Customer requests are tracked within the Roadmap through tickets, opportunities, and potential revenue. Each enhancement is linked to these customer requests, which helps in evaluating the total customer impact. By tracking these requests, product managers can prioritize enhancements based on customer impact, evaluation of tickets, and issues in the Next stage. This allows them to gain insights into customer needs and estimate the required work for each enhancement."
+devrev-dev0,"Can I organize enhancements based on different parameters like creation, stage, or type?",['devrev-dev0---article-954'],"Yes, you can organize enhancements based on different parameters like creation, stage, or type in DevRev. You can use filters to group the enhancements by Created by, Stage, and Type or any other parameter you want. Additionally, you can customize the view of the roadmap by going to Customize and selecting the filters you want to add to your roadmap."
+devrev-dev0,"
+What benefits does the Gantt view offer in the Roadmap feature?",['devrev-dev0---article-954'],"The Gantt view in the Roadmap feature offers several benefits:
+
+1. Visual representation: The Gantt view provides a visual representation of your roadmap, allowing you to see the timeline and dependencies of tasks and projects at a glance. This helps in understanding the overall project schedule and identifying any potential bottlenecks or delays.
+
+2. Planned vs Actual close dates: The Gantt view allows you to compare the planned close dates of tasks or projects with their actual close dates. This helps in identifying any deviations or delays in the completion of tasks, enabling you to take corrective actions and refine future planning strategies.
+
+3. Resource allocation optimization: By analyzing the scope of enhancements and reallocating resources based on completed tasks, the Gantt view helps in optimizing resource allocation. This ensures that resources are utilized efficiently and effectively, leading to improved project outcomes.
+
+4. Planning unplanned enhancements: The Gantt view allows you to add target dates directly within the view, enabling you to plan and schedule unplanned enhancements. This helps in incorporating new requirements or changes into the roadmap without disrupting the overall project timeline.
+
+5. Multiple views: The Gantt view offers the flexibility to switch between multiple views, such as day, month, and year. This allows you to have a granular or broad overview of your roadmap, depending on your needs and preferences.
+
+6. Customization and saving views: You can customize the Gantt view by changing filters to focus on specific aspects of your roadmap. Additionally, you can save your customized views for future reference by clicking on ""Save as"" in the top right corner. This helps in creating custom roadmaps tailored to your specific requirements.
+
+7. Dynamic schedule adjustment: The Gantt view enables you to dynamically adjust schedules within the view. This means you can optimize your timeline based on project priorities and completion estimates, ensuring that your roadmap remains flexible and adaptable to changing circumstances.
+
+Overall, the Gantt view in the Roadmap feature provides a comprehensive and intuitive way to plan, track, and manage your projects, enhancing visibility, resource allocation, and planning capabilities."
+devrev-dev0,Can I create multiple custom roadmaps focusing on different aspects?,['devrev-dev0---article-954'],"Yes, you can create multiple custom roadmaps in DevRev by changing filters to focus on specific aspects of your roadmap. This allows you to customize your views and save them for future reference. To create a custom roadmap, you can adjust the filters to include or exclude specific tasks, projects, or other criteria that you want to focus on. Once you have customized the view according to your requirements, you can save it by clicking on ""Save as"" in the top right corner. This way, you can have multiple custom roadmaps focusing on different aspects of your projects."
+devrev-dev0,how can we configure DevRev app?,['devrev-dev0---article-805'],"To configure the DevRev app, you can follow these steps:
+
+1. Log in to your DevRev account.
+2. Go to the Settings section.
+3. In the Settings section, you will find various options to configure the app according to your requirements.
+4. To install and configure the support convergence, auto-response, and article suggestion snap-ins, go to the Snap-ins section and enable these features.
+5. Make sure that every customer org record in DevRev contains the following information:
+   - Pain points and primary use cases: Document the challenges and main use cases of each customer.
+   - Success plan for the account: Define a success plan for each customer to track their progress and goals.
+   - Meeting notes and meeting recordings: Keep a record of all customer meetings, including notes and recordings.
+   - Next steps and action items: Document the next steps and action items for each customer to ensure progress and follow-up.
+
+Remember to save your changes after configuring the app. If you need further assistance, you can refer to the DevRev documentation or contact our support team."
+devrev-dev0,what is the difference between discussion tab and event tab?,['devrev-dev0---article-830'],"The Discussion tab in DevRev is used for communication and collaboration on a specific work item. It allows engineers, PMs, designers, and other stakeholders to have conversations, share ideas, ask questions, and provide updates related to the work item.
+
+On the other hand, the Events tab in DevRev provides a log of key events that have occurred for a particular work item. These events can include owner assignments or changes, stage changes, and updates to dependencies. The Events tab helps to track the history and progress of the work item.
+
+In summary, the Discussion tab is for real-time communication and collaboration, while the Events tab is for tracking the history and changes of a work item."
+devrev-dev0,what is an autonomous issue?,['devrev-dev0---article-830'],"An autonomous issue is an issue that is created automatically from an external event, such as a new VCS branch or pull request. These issues are tagged as ""autonomous"" and are typically created to track and address specific changes or updates in the codebase."
+devrev-dev0,how to import data from hubspot,['devrev-dev0---article-826'],"To import data from Hubspot into DevRev, you can follow these steps:
+
+1. Go to the Settings section in DevRev.
+2. Click on Imports or Start Import.
+3. Create a new connection to your Hubspot account, or use an existing connection if you already have one.
+4. Once the connection is established, select the specific Hubspot site you want to import.
+5. Specify the DevRev part that should be used for any imported work (this is for future releases).
+6. This will initiate a bulk import of the selected Hubspot site into DevRev.
+7. DevRev will automatically map the fields from Hubspot to corresponding fields in DevRev. However, you may be prompted to manually map certain fields if needed.
+8. The duration of the import process depends on the size of your Hubspot account and the data being imported. It can take seconds for smaller accounts or several hours for larger accounts with many items and attachments.
+9. DevRev follows the Hubspot API rate limits and will automatically back-off and resume if necessary.
+
+Please note that this information is specific to importing data from Hubspot into DevRev. Let me know if you have any further questions!"
+devrev-dev0,what does the auto routing snapin do?,['devrev-dev0---article-810'],The Auto routing snap-in helps to route customer conversations to the appropriate person or team based on user-defined keywords. It identifies keywords in the conversation and automatically assigns the conversation to the mapped team member. Multiple keywords can be mapped to a single team as well.
+devrev-dev0,What features are available for external communications in the DevRev app?,['devrev-dev0---article-787'],"In the DevRev app, external communications are facilitated through conversations. These conversations can be initiated through the DevRev PLuG widget, which allows live chat within customers' apps with just a few lines of code. Additionally, conversations can also be started through a snap-in for email, WhatsApp, or Slack. This enables customers to communicate with the dev org through their preferred communication channels."
+devrev-dev0,How can I manage my tickets?,['devrev-dev0---article-788'],"To manage your tickets in DevRev, you can use the Tickets vista. Here's how you can do it:
+ 
+
+ 1. Go to the Support section in DevRev.
+ 2. Click on the ""Tickets"" option to view all your tickets.
+ 3. You can apply filters, sorting, grouping, or customize the view according to your preferences.
+ 4. To apply a filter, click on the filter icon and select the criteria you want to filter by, such as status, priority, or assignee.
+ 5. To sort the tickets, click on the sort icon and choose the sorting order, such as by date, priority, or title.
+ 6. You can also group the tickets by a specific attribute by clicking on the group icon and selecting the attribute you want to group by, such as assignee or category.
+ 7. If you make any changes to the default view, a ""Save as"" button will appear in the upper-right corner. Click on it to save your customized view as a new vista.
+ 8. Give the list a name and description, and click ""Save"". It will then be available in the ""My list"" section at the bottom of the left-side navigation bar.
+ 
+
+ By managing your tickets using the Tickets vista, you can easily organize and track your support tickets in DevRev."
+devrev-dev0,can you explain the difference between accounts and rev orgs in Devrev?,['devrev-dev0---article-790'],"In DevRev, ""Accounts"" and ""Rev Orgs"" are both constructs related to customer identity, but they serve different purposes.
+
+1. Accounts: 
+   - Accounts represent logical groupings of external users or customers.
+   - They can be thought of as customer accounts for your B2B product or any other logical grouping of users.
+   - For example, if you have a B2B product like Slack, an account could represent a customer organization using your product, such as Stripe.
+   - Accounts help you organize and manage your customers or users in a structured manner.
+
+2. Rev Orgs:
+   - Rev Orgs, short for ""Revolution Organizations,"" are a specific type of account in DevRev.
+   - They are special accounts that represent workspaces or organizations using the DevRev platform.
+   - Rev Orgs are typically created by DevRev users to collaborate and manage their projects, teams, and workflows.
+   - They provide a dedicated space for users to create and manage tickets, conversations, and other activities within the DevRev platform.
+
+In summary, while both ""Accounts"" and ""Rev Orgs"" are related to customer identity, ""Accounts"" represent logical groupings of external users or customers, while ""Rev Orgs"" are specific accounts created within the DevRev platform for workspaces or organizations using DevRev."
+devrev-dev0,Can I integrate all departments using the customizable CRM feature in DevRev?,['devrev-dev0---article-797'],"Yes, you can integrate all departments using the customizable CRM feature in DevRev. DevRev allows you to customize the CRM according to your organization is needs and connect all departments to streamline communication and collaboration."
+devrev-dev0,can i change the accent colour in customer portal?,['devrev-dev0---article-806'],"Yes, you can change the accent color in the customer portal. In the Portal Settings, under the Styling section, you can select your desired accent color."
+devrev-dev0,can i change the logo and name in support portal?,['devrev-dev0---article-806'],"Yes, you can change the logo and name in the support portal. To do this, go to Settings > Support > Portal Settings. Under Configuration, you can enter your site name and upload your company logo."
+devrev-dev0,What stage change occurs in Devrev if we close an PR in git?,['devrev-dev0---article-836'],"If a pull request (PR) is closed in Git, the stage change that occurs in DevRev depends on the configuration settings. 
+
+By default, if the ""Close autonomous work on PR merge"" feature is enabled in the GitHub for DevRev snap-in, closing a PR in Git will close the associated autonomous work in DevRev. The stage of the autonomous work will change to ""Closed"" or ""Resolved"" depending on the configuration.
+
+However, if the ""Close autonomous work on PR merge"" feature is disabled, closing a PR in Git will move the associated autonomous work back to the ""In Development"" stage in DevRev. This allows developers to continue working on the autonomous work even if the PR is closed.
+
+It's important to note that these stage changes are based on the default behavior and can be customized by the DevRev organization."
+devrev-dev0,"If a ticket is deleted in Devrev after a periodic sync with Linear, will it also be deleted in Linear?",['devrev-dev0---article-838'],"No, deleting a ticket in DevRev after a periodic sync with Linear will not delete the ticket in Linear. The periodic sync only imports new issues and changes from Linear to DevRev, it does not synchronize deletions."
+devrev-dev0,"How does the snap-in platform manage and install snap-ins?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+",['devrev-dev0---article-859'],"The snap-in platform manages and installs snap-ins by handling the registration, validation, and deployment of snap-in packages. It provides the necessary functionality for snap-ins to be created, configured, and installed within DevRev. The platform ensures that snap-ins are properly registered and validated before they can be deployed. Once a snap-in package is installed, the platform manages the relationships between the snap-in objects and enables their functionality within DevRev."
+devrev-dev0,What functionalities does the snap-in platform enable for snap-ins?,['devrev-dev0---article-859'],"The snap-in platform enables the following functionalities for snap-ins:
+
+1. Registering: Snap-ins can be registered on the snap-in platform, allowing them to be recognized and managed within the DevRev ecosystem.
+
+2. Validating: The snap-in platform validates the snap-in packages and their contents to ensure they meet the required standards and specifications.
+
+3. Deploying: Snap-ins can be deployed on the snap-in platform, making them available for installation and use by DevRev users.
+
+4. Creating DevRev Objects: Snap-ins can create and manage various DevRev objects such as automation, event sources, keyrings, custom types, and vistas.
+
+5. Registering Events/Webhooks: Snap-ins can register event sources to subscribe to external events from platforms like GitHub, Slack, or any other source that supports webhooks.
+
+6. Triggering Actions: Snap-ins can trigger actions enriched by context, allowing them to perform specific tasks or operations within the DevRev ecosystem.
+
+Please note that this information is based on the provided details about the snap-in platform."
+devrev-dev0,Can you provide examples of objects that can be included in a snap-in?,['devrev-dev0---article-859'],"Sure! Here are some examples of objects that can be included in a snap-in:
+
+1. Automation: This object allows you to link an event source to a function, triggering the function whenever an event occurs on the event source.
+
+2. Event Source: This object collects events from webhooks, emails, timer-based API calls, or manual publishing. It can be used to ingest webhooks from any source, such as GitHub, Slack, or Bitbucket.
+
+3. Keyring: This object is used for authentication, access token refreshment, and secret storage. It can store access tokens, refresh tokens, PATs (Personal Access Tokens), API keys, and more.
+
+4. Custom Type: This object allows you to define custom data types and structures that can be used within your snap-in.
+
+5. Vistas: Vistas are visual representations of data that can be customized and displayed within the DevRev platform.
+
+These are just a few examples of objects that can be included in a snap-in. The specific objects you include will depend on the functionality you want to add to DevRev using your snap-in."
+devrev-dev0,What is the purpose of a snap-in package?,['devrev-dev0---article-859'],"The purpose of a snap-in package is to define and package the components and functionality of a snap-in. It includes the necessary resources, such as code, configuration, and metadata, to create a customized user interface (UI) component within DevRev. The snap-in package allows developers to publish their custom components to the marketplace for users to install and use in their DevRev orgs."
+devrev-dev0,How does a snap-in package differ from an object within the installer&apos;s dev org?,['devrev-dev0---article-859'],"A snap-in package is a collection of DevRev objects and their relationships that describe the functionality of the developed snap-in. It serves as a parent object that collects different versions of the snap-in package.
+
+On the other hand, an object within the installer&apos;s dev org refers to any object that is created and managed within the installer&apos;s DevRev organization. These objects are specific to the installer&apos;s organization and are not part of the snap-in package.
+
+In summary, a snap-in package is a higher-level container that includes multiple objects and their relationships, while an object within the installer&apos;s dev org refers to individual objects created within the installer&apos;s organization."
+devrev-dev0,What inputs does a snap-in version require during installation?,['devrev-dev0---article-859'],"""During the installation of a snap-in version, it may require certain inputs from the installer. These inputs can be specified by the snap-in developer to customize the snap-in. The specific inputs required can vary depending on the snap-in and its functionality. Some common examples of inputs that may be required during installation include:
+
+1. Personal Access Token (PAT) for GitHub or other external services.
+2. Configuration settings such as API keys, URLs, or credentials for accessing external systems.
+3. Customization options or parameters that affect the behavior or functionality of the snap-in.
+4. Keyring objects or connection values that provide authentication and access to external APIs.
+5. Any other specific information or settings that the snap-in developer has defined as necessary for installation.
+
+The exact inputs required for a snap-in version will be documented by the snap-in developer and should be provided by the installer during the installation process."""
+devrev-dev0,How do globals enable the customization of snap-in features?,['devrev-dev0---article-859'],"Globals enable the customization of snap-in features by allowing developers to define custom inputs that can be provided by the installer. These inputs can be used to enable or disable specific features within the snap-in based on the installer's preferences. By configuring the snap-in with different global values, the behavior and functionality of the snap-in can be tailored to meet specific requirements."
+devrev-dev0,How do hooks enable developers to invoke functions during the snap-in lifecycle?,['devrev-dev0---article-859'],"Hooks enable developers to invoke functions during the snap-in lifecycle by providing predefined events that trigger the execution of these functions. Developers can define hooks to perform specific actions based on events such as snap-in activation, configuration updates, or deactivation. These hooks can be used to validate inputs and keyrings, register event sources and webhooks, or set custom fields for the snap-in. When the specified event occurs, the associated function is automatically invoked, allowing developers to perform necessary actions and customize the behavior of the snap-in."
+devrev-dev0,Can you provide examples of actions performed by hooks?,['devrev-dev0---article-859'],"Hooks can be used to perform various actions in the lifecycle of a snap-in. Here are some examples of actions that can be performed by hooks:
+
+1. Validating snap-in inputs and keyrings: Hooks can be used to validate the inputs and keyrings provided during the configuration of the snap-in. This ensures that the snap-in is properly configured before activation.
+
+2. Registering event sources and webhooks: Hooks can be used to automatically register event sources and webhooks with external platforms when the snap-in is activated. For example, when the snap-in is activated, a hook can be triggered to register the webhook URL with GitHub to collect webhook events.
+
+3. Setting custom fields: Hooks can be used to set custom fields that can be used by the snap-in. These custom fields can be used to store additional information or configuration settings specific to the snap-in.
+
+4. Performing actions based on snap-in state changes: Hooks can be used to perform actions when the snap-in changes its state. For example, when the snap-in is activated, a hook can be triggered to perform certain initialization tasks or start specific automations.
+
+Please note that these are just examples, and the specific actions performed by hooks can vary depending on the requirements of the snap-in and the developer&apos;s implementation."
+devrev-dev0,"What are the different states a snap-in can have, and what do they signify?",['devrev-dev0---article-859'],"A snap-in can have the following states:
+
+1. DRAFT: This state indicates that the snap-in installation is in progress, and the event-sources, automations, and commands haven&apos;t been created yet.
+
+2. ACTIVATING: When a snap-in is being activated, it enters this state. In this state, the automations, commands, and snap-kit actions are paused, and the snap-in cannot be updated.
+
+3. ACTIVE: This state signifies that the snap-in is functioning properly. The automations, commands, and snap-kit actions can be invoked in this state.
+
+4. ERROR: If there is any misconfiguration of the snap-in (such as invalid keyrings or inputs) or a failure to activate the snap-in, it enters the ERROR state. In this state, the snap-in isn&apos;t functioning, and the automations, commands, and snap-kit actions are paused.
+
+5. DEACTIVATING: When a snap-in is being deactivated, it enters this state. Similar to the ACTIVATING state, the automations, commands, and snap-kit actions are paused, and the snap-in cannot be updated.
+
+6. INACTIVE: This state indicates that the snap-in has been paused by the user. In this state, the automations, commands, and snap-kit actions are paused.
+
+Please note that the ACTIVATING and DEACTIVATING states are transitory states, and background processes and hooks move the snap-in from these states to a stable state."
+devrev-dev0,How can a snap-in transition between different states?,['devrev-dev0---article-859'],"A snap-in can transition between different states through specific actions or events. Here are the possible transitions:
+
+1. DRAFT to ACTIVATING: The snap-in transitions from the DRAFT state to the ACTIVATING state when the installation process begins.
+
+2. ACTIVATING to ACTIVE: The snap-in transitions from the ACTIVATING state to the ACTIVE state when the activation process is successfully completed. In this state, the snap-in is fully functional, and automations, commands, and snap-kit actions can be invoked.
+
+3. ACTIVATING to ERROR: If there is any misconfiguration or failure during the activation process, the snap-in transitions from the ACTIVATING state to the ERROR state. In this state, the snap-in is not functioning, and automations, commands, and snap-kit actions are paused.
+
+4. ACTIVE to DEACTIVATING: The snap-in transitions from the ACTIVE state to the DEACTIVATING state when the deactivation process is initiated. In this state, the snap-in is being deactivated, and automations, commands, and snap-kit actions are paused.
+
+5. DEACTIVATING to INACTIVE: The snap-in transitions from the DEACTIVATING state to the INACTIVE state when the deactivation process is successfully completed. In this state, the snap-in is paused by the user, and automations, commands, and snap-kit actions are paused.
+
+Note: The transitions between states ACTIVATING and DEACTIVATING are transitory states, and background processes and hooks move the snap-in from these states to a stable state (ACTIVE or INACTIVE).
+
+If you have any specific questions about a particular state transition or need further assistance, please let me know."
+devrev-dev0,"What is Snap-kit, and how does it relate to UI customization in a snap-in?",['devrev-dev0---article-859'],"Snap-kit is a component defined in the snap-in package that is used for UI customization in a snap-in. It allows developers to display developer-defined components to users and collect input for triggering functions. Snap-kit components can be used to display data or collect user input, providing a customized user interface experience within the snap-in."
+devrev-dev0,"Where is Snap-kit defined, and how is it used to display components?",['devrev-dev0---article-859'],Snap-kit is defined in the snap-in package. It is used to display developer-defined components. These components can be used to display data to a user or collect input for triggering a function.
+devrev-dev0,How can developers use private marketplaces for custom snap-ins?,['devrev-dev0---article-859'],"Developers can use private marketplaces to publish their own custom snap-ins that are scoped to their dev org. This means that the snap-ins will only be available to users within their organization. By using a private marketplace, developers can control the distribution and access to their custom snap-ins, ensuring that they are only used by authorized users."
+devrev-dev0,What roles do Publisher and Installer personas play in the context of snap-ins?,['devrev-dev0---article-859'],"In the context of snap-ins, the Publisher and Installer personas play the following roles:
+
+1. Publisher: The Publisher persona is responsible for developing and maintaining the snap-in. They create the snap-in package, which includes the collection of DevRev objects and their relationships that describe the functionality of the snap-in. The Publisher interacts with DevRev objects through APIs, registers event sources, and develops functions and commands associated with the snap-in.
+
+2. Installer: The Installer persona is responsible for installing and configuring the snap-in in their DevRev environment. They install the snap-in package and provide any necessary inputs or configurations required by the snap-in version. This may include providing personal access tokens (PATs) for GitHub, registering URLs on Bitbucket, or configuring other settings specific to the snap-in. The Installer can also enable or disable certain features of the snap-in based on custom inputs defined by the Publisher.
+
+Please note that the roles of Publisher and Installer can be performed by different individuals or teams, depending on the organization&apos;s structure and requirements."
+devrev-dev0,What responsibilities does the Publisher have after a snap-in is published to the marketplace?,['devrev-dev0---article-859'],"After a snap-in is published to the marketplace, the Publisher has the responsibility of supporting snap-in users. This includes addressing any issues or questions that users may have regarding the snap-in. The Publisher should provide assistance and guidance to ensure that users have a positive experience with the snap-in."
+devrev-dev0,How are commands included and installed with a snap-in version?,['devrev-dev0---article-866'],Commands are included and installed with a snap-in version by defining them in the commands section of the snap-in manifest. Each command is defined with a unique name and associated with a specific surface object. The commands can be included and installed by packaging the snap-in version with the updated manifest file that includes the desired commands.
+devrev-dev0,"How does an event source collect events, and what types of events can it collect?",['devrev-dev0---article-867'],"An event source in DevRev collects events by listening to specific actions or triggers within the DevRev platform. The types of events that an event source can collect depend on the specific event source type.
+
+Here are the supported event source types and their corresponding event types:
+
+1. devrev-webhook:
+   - Event Types: All supported DevRev webhook event types
+   - Description: This event source listens for events occurring on DevRev, such as work_created and conversation_updated.
+
+2. flow-events:
+   - Event Types: Configurable
+   - Description: This event source allows you to schedule and publish events directly from a snap-in. You can configure the event types based on your requirements.
+
+3. flow-custom-webhook:
+   - Event Types: Configurable
+   - Description: This event source is a generic webhook with a URL and configurable authentication logic. You can configure the event types based on your requirements.
+
+4. timer-events:
+   - Event Types: timer.tick
+   - Description: This event source sends a timer.tick event based on a configured schedule. It is useful for triggering events at specific time intervals.
+
+5. email-forward:
+   - Event Types: email.receive
+   - Description: This event source is used for receiving emails forwarded from an email inbox or mailing list. It collects events when new emails are received.
+
+Please note that each event source type has its own specific instructions and configuration options. You can refer to the documentation for each event source type for more details on how to set them up and collect events."
+devrev-dev0,What inputs can developers define to enable or disable features through globals?,['devrev-dev0---article-872'],"Developers can define inputs to enable or disable features through globals by specifying the following in the manifest:
+
+1. Name: The name of the input.
+2. Description: A description of the functions of this input.
+3. Field Type: The supported input types.
+4. ID Type: If the field type is ID, specify the supported object types whose IDs this input can store.
+5. Is Required: Specify whether this input is required or not.
+6. Default Value: The default value for this input.
+7. UI Display Name: Input field display name.
+
+By defining these inputs, developers can provide a way for users to enable or disable features based on their preferences or requirements."
+devrev-dev0,"What triggers an email notification when replying to a customer in a conversation, and how does the system handle customers who are not online?",['devrev-dev0---article-905'],"When a reply is made to a customer in a conversation and they are not online, an email notification is triggered by the system. The email is sent to the customer with the recent messages, highlighting the latest message that triggered the email. The sender of this email notification is DevRev with the email address no-reply@devrev.ai. The subject of the email is ""You are missing messages from <Org Name>"". This ensures that the customer stays informed and can catch up on any messages they may have missed while they were offline."
+devrev-dev0,How does DevRev handle email notifications when there is a reply to a customer on a ticket?,['devrev-dev0---article-905'],"When a reply is made to a customer on a ticket and they are not online anymore, DevRev sends out a notification email to the customer. The email is sent from ""DevRev"" with the email address ""no-reply@devrev.ai"". The subject of the email is ""You are missing messages from <Org Name>"". The email includes the recent messages from the conversation, with the latest message that triggered the email highlighted."
+devrev-dev0,"How are email senders and subject lines determined within the DevRev platform, and can organizations customize these settings?",['devrev-dev0---article-905'],"Within the DevRev platform, the email senders and subject lines are determined based on organizational settings and preferences. These settings can be customized by organizations according to their requirements and preferences. However, the specific details of how organizations can customize these settings may vary, as it depends on the specific configuration and setup of each organization is DevRev instance."
+devrev-dev0,How to create a QA in Devrev?,['devrev-dev0---article-907'],"To create a QA in DevRev, follow these steps:
+
+1. Go to Settings in the DevRev platform.
+2. Click on Knowledge Base.
+3. Select Questions and Answers.
+4. Click on the ""+QA"" button located in the top-right corner.
+5. Fill in the Question and Answer fields with the relevant information.
+6. Choose the appropriate Part that the QA pertains to.
+7. Set the Status to either Published, Draft, Review Needed, or Archived, depending on the progress phase of the QA.
+8. Determine the Access Level for the QA, specifying who can view and access it.
+9. Confirm the creation of the QA by clicking on the ""Create"" button.
+
+Following these steps will allow you to create a QA in DevRev."
+devrev-dev0,can we create QA in customer portal?,['devrev-dev0---article-907'],"No, you cannot create QAs in the customer portal. QAs can only be created by support engineers in the DevRev platform."
+devrev-dev0,"Can you explain the functionality of the Vista and search features in DevRev, and how can I use them effectively?",['devrev-dev0---article-924'],"In DevRev, Vistas are customizable list views that allow you to display and organize data according to your preferences. You can add custom attributes to Vistas, which gives you complete control over the customization of list views. With Vistas, you can perform filter, sort, and group operations on custom attributes, making it easier to find and analyze specific data.
+
+The search feature in DevRev allows you to quickly find specific records or information within the platform. You can search for records based on various criteria such as keywords, attributes, or specific values. This helps you locate the information you need without having to manually browse through all the data.
+
+To use Vistas effectively, you can customize the list views by adding or removing columns, rearranging the order of columns, and applying filters to display only the relevant data. You can also sort the data based on specific attributes to organize it in a meaningful way. Grouping operations can be used to group data based on specific attributes, providing a hierarchical view of the information.
+
+For the search feature, you can use keywords or specific attribute values to narrow down your search. You can also use advanced search operators to refine your search queries. Additionally, you can save your frequently used search queries for quick access in the future.
+
+Overall, the Vista and search features in DevRev provide powerful tools for customizing and finding data, allowing you to effectively manage and analyze your information."
+devrev-dev0,How does a connection use a keyring object for authentication and secret storage?,['devrev-dev0---article-934'],"A connection in DevRev uses a keyring object for authentication and secret storage. The keyring object is defined in the snap-in manifest under the keyrings section. It specifies the types of keyrings that the snap-in requires.
+
+When installing the snap-in, the installer is prompted to provide the required keyring. The keyring can be a DevRev PAT (Personal Access Token) or a secret token. The installer enters the necessary information, and the keyring object stores this information securely.
+
+During authentication or when accessing external services, the connection uses the keyring object to retrieve the required authentication credentials or secrets. This allows the connection to securely authenticate with the external services and access any necessary secrets for the snap-in&apos;s functionality.
+
+Please note that the specific implementation details may vary depending on the version of the manifest being used."
+devrev-dev0,can we configure the frequency of sync during periodic syncs in imports?,['devrev-dev0---article-939'],"Yes, you can configure the frequency of sync during periodic syncs in imports. The default period is 1 hour, but you have the option to customize it according to your requirements. To enable periodic sync and configure the frequency, go to Settings > Imports > Past Imports, find the previously imported project, and select the ⇆ > Start periodic sync option."
+devrev-dev0,what is the subtype format To mark an item for sync when creating with the API.,['devrev-dev0---article-939'],"To mark an item for sync when creating with the API, the subtype format should be used. The subtype format is as follows: [Jira project name]/issues/[work item type].
+
+For example, if you want to sync a Bug work item to a Jira project called Maple, the subtype format would be Maple/issues/Bug."
+devrev-dev0,What are the salesforce editions that are supported for imports in Devrev?,['devrev-dev0---article-942'],"The Salesforce editions that are supported for imports in DevRev are Enterprise, Unlimited, Developer, and Performance. Additionally, Professional edition is supported if API access has been purchased as an add-on."
+devrev-dev0,"How does the support analytics handle real-time data updates, especially in dynamic situations, and is there a mechanism to manually trigger a refresh if users require the most up-to-date information?",['devrev-dev0---article-963'],"The support analytics undergoes periodic refresh cycles to ensure that the data is up to date. The last refresh time is displayed in the top right corner of the dashboard. In optimal scenarios, the data is no more than an hour old, providing you with the latest and relevant information for decision-making.
+
+However, the support analytics utilizes browser-based analytics, which may cause a slight delay during the initial data load. Once the data is cached in the browser, the user experience is significantly enhanced, resulting in near-instantaneous dashboard loading thereafter.
+
+If you require the most up-to-date information and want to manually trigger a refresh, you can try refreshing the page after a brief pause. This should resolve any data loading issues and provide you with the most recent data. If the error persists, it is recommended to raise a ticket, and someone from the team will assist you."
+devrev-dev0,"When encountering ""Failed to download data"" errors in support analytics, what are common reasons and troubleshooting steps before raising a ticket?",['devrev-dev0---article-963'],"When encountering ""Failed to download data"" errors in support analytics, there can be several common reasons and troubleshooting steps to try before raising a ticket. Here are a few possible reasons and steps to resolve the issue:
+
+1. Network Connectivity: Check your internet connection to ensure it is stable and working properly. Try accessing other websites or applications to verify if the issue is specific to the support analytics platform.
+
+2. Browser Compatibility: Ensure that you are using a supported browser and that it is up to date. Clear your browser cache and cookies, then try reloading the support analytics page.
+
+3. Temporary Server Issue: Sometimes, the support analytics server may experience temporary issues. Wait for a few minutes and then refresh the page to see if the data loads successfully.
+
+4. Ad-blockers or Firewall Settings: Disable any ad-blockers or firewall settings that might be blocking the support analytics platform from downloading data. Check your browser extensions and security settings to ensure they are not interfering with the data download.
+
+5. Try a Different Device or Network: If possible, try accessing the support analytics platform from a different device or network to see if the issue persists. This can help determine if the problem is specific to your current setup.
+
+If none of these troubleshooting steps resolve the issue, it is recommended to raise a ticket with the support team. Provide them with details about the error message, steps you have already taken, and any other relevant information to help them investigate and resolve the issue more effectively."
+devrev-dev0,"What filters are applicable to specific metrics, and how can users effectively manage scenarios where certain filters don't apply in support metrics?",['devrev-dev0---article-964'],"In DevRev, users can apply filters to specific metrics to analyze and visualize data based on specific criteria. The available filters may vary depending on the metric being analyzed. Some common filters that can be applied to metrics in DevRev include date range filters, project filters, team filters, and user filters. To effectively manage scenarios where certain filters don&apos;t apply in support metrics, users can consider the following options: 1. Adjust the filter criteria: Users can modify the filter criteria to include or exclude specific data points that are relevant to the support metrics they are analyzing. For example, if a certain filter doesn&apos;t apply to a particular metric, users can adjust the filter settings to include all data points or choose a different filter that is applicable. 2. Utilize multiple metrics: If certain filters don&apos;t apply to a specific metric, users can consider analyzing the data using multiple metrics that are relevant to their analysis. By combining different metrics, users can gain a comprehensive understanding of the support data without relying on filters that may not be applicable. 3. Seek assistance from the DevRev support team: If users encounter scenarios where certain filters don&apos;t apply in support metrics and are unsure how to effectively manage them, they can reach out to the DevRev support team for assistance. The support team can provide guidance and help users navigate through any challenges they may face in analyzing support metrics. Please note that the specific filters applicable to each metric and the management of scenarios where certain filters don&apos;t apply may vary depending on the configuration and customization of DevRev for your organization. It is recommended to refer to the DevRev documentation or reach out to the DevRev support team for more specific guidance based on your organization&apos;s setup."
+devrev-dev0,"What is considered a ""blocker"" ticket? ",['devrev-dev0---article-964'],"A ""blocker"" ticket refers to a ticket that has a severity level of ""blocker."" In the context of DevRev, a blocker ticket is a high-priority issue or problem that is preventing the normal functioning or progress of a project or task. These tickets require immediate attention and resolution to ensure operational efficiency and meet service-level commitments."
+devrev-dev0,What happens after I submit a ticket? How does it move through different stages?,['devrev-dev0---article-804'],"After you submit a ticket, it initially moves to the ""Queued"" stage. This means that the ticket is waiting to be picked up by a customer experience engineer. 
+
+Once a customer experience engineer starts working on the ticket, its stage changes to ""Work in Progress"" (WIP). During this stage, the engineer may ask you for additional information or clarification if needed. If they are able to resolve your concern, they will ask you if the resolution has resolved your concern and the stage will move to ""Awaiting Customer Response"". 
+
+If the concern is resolved and you acknowledge the resolution, the stage may move to ""Resolved"". However, if the concern is not resolved, the stage may change back to ""Work in Progress"" as the engineer continues to work on it. 
+
+Please note that the specific stages and their names may vary depending on the ticketing system used by DevRev."
+devrev-dev0,"How does assignment complement routing, and what role does it play in determining the owner responsible for resolving a conversation or ticket?",['devrev-dev0---article-906'],"Assignment complements routing by identifying the owner of a conversation or ticket within the designated team. Once a ticket or conversation is routed to a specific team based on factors like time, content, or attribute, assignment comes into play to determine the specific team member who will be responsible for resolving the inquiry.
+
+The assignment process takes into consideration factors like workload and availability. It ensures that new requests are assigned to team members with the fewest open requests, distributing the workload evenly among the team. Additionally, new requests are exclusively assigned to users who have set their status as ""online"" on DevRev, ensuring that the available team members are the ones who receive the new requests.
+
+In summary, assignment complements routing by determining the specific team member who will handle a ticket or conversation, based on workload, availability, and other factors. It plays a crucial role in ensuring efficient and fair distribution of work within the team."
+devrev-dev0,Can you provide examples of the different scenarios in which routing can be utilized?,['devrev-dev0---article-906'],"Certainly! Here are a few examples of scenarios where routing can be utilized:
+
+1. Time-based routing: If your support team operates across different time zones, you can use time-based routing to assign tickets or conversations based on their time of creation. For example, you can route inquiries created during business hours in one time zone to a specific team, and inquiries created outside of business hours to another team.
+
+2. Expertise-based routing: If your product has different components or features, you can route inquiries to teams with expertise in specific parts of your product. For example, inquiries related to billing can be routed to a finance team, while inquiries related to technical issues can be routed to a technical support team.
+
+3. Language-based routing: If you provide support in multiple languages, you can route inquiries to teams that are proficient in specific languages. For example, inquiries in English can be routed to an English-speaking team, while inquiries in Spanish can be routed to a Spanish-speaking team.
+
+These are just a few examples of how routing can be utilized. The specific scenarios and configurations will depend on your organization&apos;s needs and the capabilities of your support system."
+devrev-dev0,"How are conversations initiated, and what are the possible initiators?",['devrev-dev0---article-787'],"Conversations can be initiated through the DevRev PLuG widget, which allows live chat within customers&apos; apps with just a few lines of code. Additionally, conversations can also be initiated through a snap-in for email, WhatsApp, or Slack. 
+
+The possible initiators of conversations can be external users, such as customers or users of the app, who can reach out for support, sales inquiries, or general questions. Conversations can also be initiated by members of the dev org, including support, sales, and customer success staff, who can proactively engage with external users."
+devrev-dev0,"How does the Inbox handle conversations categorized as ""Spam""?",['devrev-dev0---article-802'],"Conversations categorized as ""Spam"" are moved to the ""Suspended"" stage in the Inbox. This is done to minimize noise in the support inbox. If a conversation that was initially marked as spam is later reviewed and deemed valid, it will be transitioned to the ""New"" stage."
+devrev-dev0,How do customers start conversations?,['devrev-dev0---article-806'],Customers can start conversations by creating a new ticket or replying to an existing ticket. They can provide additional information or seek clarification regarding their requests through threaded conversations with support representatives.
+devrev-dev0,"How does DevRev track SLA metrics for issues, and where can users view this information?",['devrev-dev0---article-808'],"DevRev tracks SLA metrics for issues based on the policy applied to the conversation or ticket. Each metric is tracked separately. The metrics can be in one of the following stages: Active, Close to breach, Breached, Paused, or Completed.
+
+Users can view the SLA metrics information in the Workspace. To access it, click on the ⁞ (next to Opportunities) and select Workspace. The SLA details, including the applied SLA and its current status, will be displayed there."
+devrev-dev0,Could you explain the different metrics tracked for tickets and conversations within SLAs?,['devrev-dev0---article-808'],"For tickets, the following metrics are tracked within SLAs:
+
+1. First Response Time: This metric measures the time taken to provide the first response to a ticket. It starts when the ticket is created by a customer or a customer experience engineer and ends when the agent adds a comment to the customer chat. If the first response is not provided within the defined time, it may result in breaching the SLA.
+
+2. Next Response Time: This metric measures the time taken to provide subsequent responses to a ticket after the first response. It starts when a new comment is added by the customer after the customer experience engineer replied, and ends when the ticket is resolved or awaiting customer response. If the next response is not provided within the defined time, it may result in breaching the SLA.
+
+3. Full Resolution Time: This metric measures the total time taken to fully resolve a ticket. It starts when the ticket is created by a customer or a customer experience engineer and ends when the ticket is moved to the closed state or awaiting customer response state. If the ticket is not resolved within the defined time, it may result in breaching the SLA.
+
+For conversations, the following metrics are tracked within SLAs:
+
+1. First Response Time: This metric measures the time taken to provide the first response to a conversation. It starts when the conversation is created and ends when the agent replies to the conversation. If the first response is not provided within the defined time, it may result in breaching the SLA.
+
+2. Next Response Time: This metric measures the time taken to provide subsequent responses to a conversation after the first response. It starts when a new message is added by the customer after the customer experience engineer replied, and ends when the conversation is marked as resolved or waiting on user. If the next response is not provided within the defined time, it may result in breaching the SLA.
+
+3. Full Resolution Time: This metric measures the total time taken to fully resolve a conversation. It starts when the conversation is created and ends when the conversation is marked as resolved or archived. If the conversation is not resolved within the defined time, it may result in breaching the SLA.
+
+Please note that the specific conditions and events that trigger each metric may vary based on the ticket or conversation lifecycle."
+devrev-dev0,What happens if a ticket or conversation breaches its SLA metric targets?,['devrev-dev0---article-808'],"If a ticket or conversation breaches its SLA metric targets, it means that the time spent on that metric has exceeded the defined breach target in the policy. When a breach occurs, it indicates that the response or resolution time has exceeded the expected timeframe. This breach can trigger various actions, such as notifying the support team or escalating the ticket to a higher priority. The specific actions taken upon breach may vary depending on the organization&apos;s workflow and policies."
+devrev-dev0,What happens if the Turing bot doesn&apos;t understand a user&apos;s query in auto-response mode?,['devrev-dev0---article-807'],"If the Turing bot doesn&apos;t understand a user&apos;s query in auto-response mode, it will ask the user to rephrase the question and ask again. The bot will not generate an answer or resolve the conversation until it can understand the user&apos;s query."
+devrev-dev0,"My support analytics dashboard is showing ""failed to load data"" ",['devrev-dev0---article-963'],"If your support analytics dashboard is showing ""failed to load data,"" it could be due to various reasons. One common reason is a temporary issue with the data source or network connectivity. In such cases, refreshing the page after a brief pause should resolve the error. 
+
+If the error persists even after refreshing the page, it is recommended to raise a ticket with the support team. They will be able to assist you further in resolving the issue."
+devrev-dev0,"What are ""tasks"" in DevRev? how are they related to other work items? ",['devrev-dev0---article-789'],"In DevRev, tasks are work items that are used to break down larger work into smaller pieces. They can be part of tickets and issues. Tasks are related to other work items through parent/child relationships. For example, a high-level issue may have multiple child tasks, each with their own owner and effort required. Tasks can also be linked together, creating a chain of work items that are dependent on each other."
+devrev-dev0,"Can you explain the key attributes associated with issues in DevRev, and how are they used in filtering and grouping?",['devrev-dev0---article-830'],"In DevRev, there are several key attributes associated with issues that can be used for filtering and grouping. These attributes include:
+
+1. Owner: The Owner attribute is used to assign an issue to a specific team member, such as an engineer, PM, or designer. It can be effectively used in filters and Group conditions to track specific work and capacity.
+
+2. Effort: The Effort attribute represents the estimated effort required to complete an issue, usually measured in days. It can be used to estimate work and track progress. Effort can also be used in filters and Group conditions to analyze workload and capacity.
+
+3. Target close date: The Target close date attribute represents the expected completion date for an issue. It helps stakeholders to understand the timeline and delivery expectations. Target close date can be used in filters and Group conditions to track issues based on their due dates.
+
+4. Parts: Issues can be attached to parts to align efforts with product priorities. Parts represent different areas or components of a project. Filtering and grouping by parts can help in organizing and prioritizing work based on different product areas.
+
+By using these attributes in filters and Group conditions, you can create custom views and reports in DevRev to track specific work, analyze workload, estimate delivery dates, and prioritize tasks based on product areas."
+devrev-dev0,What is the difference between tickets and conversations? ,['devrev-dev0---article-789'],"In DevRev, tickets and conversations are both types of work items, but they serve different purposes:
+
+1. Tickets: Tickets are work items created by the customer or consumer. They are typically used to report issues, ask questions, or request assistance. Tickets are part of the Support app and are often used for asynchronous communication. They can be assigned to specific owners and tracked for resolution.
+
+2. Conversations: Conversations are synchronous or near-synchronous discussions that may be escalated to a ticket if needed. They are also part of the Support app. Conversations are typically used for real-time communication, such as live chat or phone calls, to address customer inquiries or provide immediate support.
+
+In summary, tickets are work items created by customers for asynchronous communication, while conversations are real-time discussions that can be escalated to tickets if necessary."
+devrev-dev0,Can you explain the difference between a regular customer and a customer admin in the context of the customer portal?,['devrev-dev0---article-806'],"In the context of the customer portal, a regular customer is a user who can log in and view only the tickets that they have created. They have limited access and can only see their own tickets.
+
+On the other hand, a customer admin is a user who has additional privileges. They can log in to the customer portal and not only view their own tickets but also see all the tickets raised by other users from their organization. Customer admins have a broader view and can manage tickets and user activities within their organization.
+
+To summarize, regular customers have access to their own tickets only, while customer admins have access to all tickets raised by users from their organization."
+devrev-dev0,What information is available in the Detailed View regarding SLAs and their associated metrics?,['devrev-dev0---article-808'],"In the Detailed View, you can view all the metrics that are applied to a ticket or conversation along with their current stage. This includes the First Response Time, Next Response Time, and Full Resolution Time metrics. You can also see the SLA targets associated with each metric. Additionally, you can group tickets or conversations by SLA stages to get a better understanding of their progress."
+devrev-dev0,What types of SLA policies can be created in the platform? ,['devrev-dev0---article-808'],"In the platform, you can create two types of SLA policies: Ticket Policies and Conversation Policies. Ticket Policies are applied to individual tickets, while Conversation Policies are applied to ongoing conversations."
+devrev-dev0,How are responses sent back to the customer? ,['devrev-dev0---article-806'],"Responses are sent back to the customer through threaded conversations. Customers can engage in conversations with support representatives by providing additional information or seeking clarification regarding their tickets. Support teams can then respond to customer inquiries within the same conversation, ensuring effective communication."
+devrev-dev0,"Are SLA metrics calculated differently for tickets and conversations, or do they follow the same process?",['devrev-dev0---article-808'],SLA metrics are calculated differently for tickets and conversations. The process for calculating SLA metrics for tickets and conversations is different. The specific details of how each metric is calculated for tickets and conversations are provided in the information I have been given.
+devrev-dev0,"How are SLAs assigned to customers within the DevRev platform, and what are the limitations in this process?",['devrev-dev0---article-808'],"SLAs can be assigned to customers within the DevRev platform once they are published. However, it is important to note that SLAs cannot be assigned to customers until they are published. Once published, the SLA cannot be edited, and the policies or priority order of the SLA cannot be changed.
+
+Additionally, each workspace has its own SLA, and a single customer can have multiple workspaces. The applied SLA can be updated from the Workspace section by selecting the customer and accessing the Customer Details pane.
+
+Please note that this information is based on the provided details about DevRev&apos;s SLA functionality. If there are any specific limitations or additional details that are not mentioned here, I&apos;m afraid I don&apos;t have that information."
+devrev-dev0,How are SLAs calculated in DevRev? ,['devrev-dev0---article-808'],"SLAs in DevRev are calculated based on the policy applied to the conversation or ticket. Each metric is tracked separately, and there can be one or more active SLA metrics on a conversation or ticket. The SLA metrics are calculated according to the policy applied, and they can be in one of the following stages: Active, Close to breach, Breached, Paused, or Completed. The specific calculation details for each metric can be found in the SLA details on the workspace."
+devrev-dev0,"Can you describe the different stages in the state machine for issues, from creation to closure?",['devrev-dev0---article-830'],"Sure! The state machine for issues in DevRev consists of the following stages:
+
+1. Open: This is the initial stage when an issue is created. It is either created by a user or generated automatically from an external event, such as a new VCS branch or pull request.
+
+2. Triage: In this stage, the issue is reviewed by either a user or automation. The reviewer determines where the issue should go next. If the issue is a duplicate of an existing concern, it may be immediately closed. If the issue is invalid or cannot be fixed, it may also be closed as ""won&apos;t fix"". Otherwise, the issue is accepted and moved to the next stage.
+
+3. Backlog: Issues that have been accepted but are not planned for the next few development cycles are placed in the backlog stage. These issues may be periodically reviewed and groomed to determine if they should be moved to the prioritized or in development stage based on current priorities and available resources.
+
+4. Prioritized: Issues in this stage have been selected for development in the near future. They are assigned a priority and are ready to be worked on in the next development cycle.
+
+5. In Development: This stage indicates that the issue is currently being worked on by the development team. The team is actively implementing a solution or making changes to address the reported concern.
+
+6. Blocked: If an issue encounters any obstacles or dependencies that prevent progress, it is marked as blocked. The reason for the blockage is provided, and the issue remains in this stage until the blockage is resolved.
+
+7. Resolution: Once the development work is completed, the issue moves to the resolution stage. Here, the resolution for the issue is provided, indicating how the reported concern has been addressed.
+
+8. Closed: Finally, when the issue is considered resolved and all necessary actions have been taken, it is closed. The issue is considered complete and no further work is required.
+
+I hope this clarifies the different stages in the state machine for issues in DevRev! Let me know if you have any further questions."
+devrev-dev0,Could you walk me through the process of creating a new issue within the DevRev platform?,['devrev-dev0---article-823'],"Sure! To create a new issue within the DevRev platform, you can use the slash command ""/devrev create-issue"". Here are the steps to follow:
+
+1. In your Slack channel, type ""/devrev create-issue"" in the message input box and press Enter.
+2. A form will appear in the thread of the message. If you don&apos;t see the form, click on the ""Reply in thread"" option below the message to open the thread and find the form.
+3. Fill in the required fields in the form. The fields include:
+   - Issue Title: Provide a concise title for the issue.
+   - Description: Describe the issue in detail, including any relevant information.
+   - Part: Select the relevant part from the dropdown list or search for a specific part.
+   - Owner: The default value is pre-filled with your name as the user creating the issue.
+   - Severity: Select the severity level of the issue from the dropdown list (Blocker, High, Medium, Low).
+   - Customer (optional): If applicable, you can search for and select the name of the customer on behalf of whom the issue is being created.
+4. Once you have filled in the required fields, click on the ""Submit"" button in the form to create the new issue.
+5. The issue will be created in the DevRev platform, and you will receive a confirmation message in the Slack channel.
+
+That&apos;s it! You have successfully created a new issue within the DevRev platform using the slash command."
+devrev-dev0,Could you show me how to create a new support ticket in the system?,['devrev-dev0---article-804'],"Sure! To create a new support ticket in the system, you can follow these steps:
+
+1. Log in to the DevRev platform using your credentials.
+2. Once you are logged in, navigate to the support section or the help center.
+3. Look for an option to create a new ticket or contact support.
+4. Click on the ""Create New Ticket"" or ""Contact Support"" button.
+5. Fill in the required information, such as the subject of the ticket, a detailed description of the issue or query, and any relevant attachments or screenshots.
+6. Select the appropriate category or product area that the ticket is related to (e.g., DevRev).
+7. Optionally, you can assign the ticket to a specific support engineer or leave it unassigned for the system to automatically assign it.
+8. Set the severity level of the ticket based on the urgency and impact of the issue.
+9. Add any relevant tags to help categorize and identify the ticket.
+10. Finally, click on the ""Submit"" or ""Create Ticket"" button to create the new support ticket.
+
+Once the ticket is created, it will be assigned to a customer experience engineer who will review and respond to your query as soon as possible."
+devrev-dev0,"What role do tasks play in managing issues within DevRev, and how are they related to the overall workflow?",['devrev-dev0---article-830'],"Tasks play a crucial role in managing issues within DevRev. They are used to break down an issue into smaller, manageable pieces. Tasks represent the individual steps or actions required to complete an issue.
+
+Tasks are related to the overall workflow in the following ways:
+
+1. Granularity: Tasks allow for a more granular breakdown of work within an issue. They help in dividing complex issues into smaller, more manageable tasks, making it easier to track progress and assign responsibilities.
+
+2. Assignment: Tasks can be assigned to specific team members, allowing for better distribution of work and accountability. This helps in ensuring that each task is assigned to the appropriate person responsible for its completion.
+
+3. Progress Tracking: Each task can have its own status, such as ""To Do,"" ""In Progress,"" or ""Done."" This allows for better tracking of progress at a task level, providing visibility into the overall status of the issue.
+
+4. Checklist: Tasks can be used as a checklist of items to be handled within an issue. This helps in ensuring that all necessary steps are completed before considering the issue as resolved.
+
+5. Dependencies: Tasks can have dependencies on other tasks or issues. This helps in establishing the order in which tasks need to be completed, ensuring that dependencies are met before moving forward.
+
+Overall, tasks provide a structured approach to managing and tracking the progress of issues within DevRev, enabling teams to effectively collaborate and deliver work in a systematic manner."
+devrev-dev0,"What information does the ""Median resolution time"" metric provide?",['devrev-dev0---article-964'],"The ""Median resolution time"" metric provides the middle value in the distribution of the time taken to resolve tickets. It helps in understanding the average time it takes to resolve customer issues. This metric is useful for resource allocation, setting realistic customer expectations, and improving overall service efficiency."
+devrev-dev0,"I&apos;ve heard about the ""Turing Suggests"" feature. How does it help me when I&apos;m dealing with a support issue?",['devrev-dev0---article-804'],"The ""Turing Suggests"" feature is designed to assist support engineers in resolving customer tickets more efficiently. When you view a ticket, Turing AI proactively presents a curated selection of similar tickets and related knowledge articles. This can help you find relevant information and solutions faster, saving you time and effort in resolving the support issue. Additionally, the feedback mechanism allows users to contribute to the continual learning and enhancement of the AI, ensuring an increasingly effective and refined support experience over time."
+devrev-dev0,What does the CSAT score metric measure on the Tickets Dashboard?,['devrev-dev0---article-964'],The CSAT score metric on the Tickets Dashboard measures the percentage of positive survey responses out of all survey responses received. It helps identify the overall percentage of satisfied customers with the ticket resolution experience.
+devrev-dev0,What features does the customer portal offer for tracking the progress of my support tickets?,['devrev-dev0---article-806'],"The customer portal offers several features for tracking the progress of your support tickets. These include:
+
+1. Ticket Status: You can view the current status of your ticket, such as ""Open,"" ""In Progress,"" or ""Resolved."" This helps you understand where your ticket stands in the resolution process.
+
+2. Ticket Updates: The portal provides timely updates on your ticket, including any changes in status, comments from the support team, or additional information requested. This ensures that you are kept informed about the progress of your request.
+
+3. Ticket History: You can access the complete history of your ticket, including all the interactions, comments, and actions taken by the support team. This allows you to track the entire journey of your ticket and understand the steps taken to resolve your issue.
+
+4. Notifications: The portal sends you notifications whenever there is a change in the status or any update on your ticket. This helps you stay updated without having to constantly check the portal.
+
+These features enable you to have a clear and transparent view of the progress of your support tickets, ensuring that you are always aware of the status and any updates related to your requests."
+devrev-dev0,How recent is the data shown in the analytics dashboard? ,['devrev-dev0---article-963'],"The data shown in the analytics dashboard is refreshed periodically. The last refresh time is displayed in the top right corner of the dashboard. In optimal scenarios, the data is no more than an hour old, ensuring that you have access to the latest and relevant information for informed decision-making."
+devrev-dev0,What are the default conditions and events for each SLA metric for tickets and conversations?,['devrev-dev0---article-808'],"The default conditions and events for each SLA metric for tickets and conversations are as follows:
+
+1. First response time:
+   - Start event: Ticket created by a customer or The ticket was created by a customer experience engineer but reported by a customer.
+   - End event: The ticket is resolved or Awaiting Customer Response.
+   - Pause event: None.
+   - Resume event: None.
+
+2. Next response time:
+   - Start event: Ticket created by a customer or The ticket was created by a customer experience engineer but reported by a customer.
+   - End event: A new comment on the ticket by the customer after the customer experience engineer replied or The agent added a comment to the customer chat or The ticket is resolved or Awaiting Customer Response.
+   - Pause event: None.
+   - Resume event: None.
+
+3. Full resolution time:
+   - Start event: Ticket created by a customer or The ticket was created by a customer experience engineer but reported by a customer.
+   - End event: The ticket is moved to the Closed state or The ticket was moved to Awaiting Customer Response state or The ticket moves to any state except conditions.
+   - Pause event: Start event or End event.
+   - Resume event: Pause event or End event.
+
+Please note that these are the default conditions and events, and they can be customized according to the organization&apos;s requirements."
+devrev-dev0,How is the default owner of a new conversation determined?,['devrev-dev0---article-810'],"The default owner of a new conversation in DevRev is determined by the ""default_owner"" setting. This setting allows you to specify an email address to which the conversation will be routed if no keyword matches."
+devrev-dev0,What are the key stages involved in the calculation of SLA metrics for tickets and conversations?,['devrev-dev0---article-808'],"The key stages involved in the calculation of SLA metrics for tickets and conversations are:
+
+1. Start event: This is the event that triggers the SLA timer. For tickets, the start event is when the ticket is created by a customer or a customer experience engineer. For conversations, the start event is when the conversation is created.
+
+2. End event: This is the event that marks the completion of the SLA timer. For tickets, the end event can be when the ticket is resolved or moved to the Closed state. For conversations, the end event can be when the conversation is marked as Resolved or Archived.
+
+3. Pause event: This event pauses the SLA timer temporarily. It can occur when there is a pause in the ticket or conversation activity, such as when the ticket or conversation is moved to the Awaiting Customer Response state or when the conversation is marked as spam.
+
+4. Resume event: This event resumes the SLA timer after it has been paused. It can occur when the ticket or conversation activity resumes, such as when a new comment is added by the customer or when the conversation is moved out of the Awaiting Customer Response state or marked as not spam.
+
+5. First response time: This metric measures the time taken to provide the first response to a ticket or conversation. For tickets, the first response time is calculated from the ticket creation event to the first message sent by a customer or the agent&apos;s first comment in the customer chat. For conversations, the first response time is calculated from the conversation creation event to the first message sent by the customer or the agent&apos;s first reply to the conversation.
+
+6. Next response time: This metric measures the time taken to provide subsequent responses to a ticket or conversation. For tickets, the next response time is calculated from the ticket creation event or the last customer comment to the next message sent by the customer or the agent&apos;s next comment in the customer chat. For conversations, the next response time is calculated from the conversation creation event or the last customer message to the next message sent by the customer or the agent&apos;s next reply to the conversation.
+
+7. Full resolution time: This metric measures the total time taken to fully resolve a ticket or conversation. For tickets, the full resolution time is calculated from the ticket creation event to the ticket being moved to any state except conditions. For conversations, the full resolution time is calculated from the conversation creation event to the conversation being moved to any stage except Waiting on User.
+
+These stages and metrics are used to calculate and track the SLA targets for tickets and conversations in DevRev."
+devrev-dev0,"What are the possible reasons for marking an issue as ""Won&apos;t Fix"" or ""Duplicate,"" and how does DevRev handle such cases?",['devrev-dev0---article-830'],"The possible reasons for marking an issue as ""Won&apos;t Fix"" or ""Duplicate"" in DevRev are as follows:
+
+1. Won&apos;t Fix: This means that the reported issue will not be addressed or fixed by the development team. The reasons for marking an issue as ""Won&apos;t Fix"" can vary, such as if the issue is not feasible to fix, if it goes against the project&apos;s goals or priorities, or if it is a low-priority issue that will not be addressed in the foreseeable future.
+
+2. Duplicate: This means that the reported issue is a duplicate of an existing issue. It indicates that the same or a similar issue has already been reported and is being addressed or has been addressed in another issue.
+
+DevRev handles such cases by allowing the owner of the issue, who can be a user or automation, to make a determination of whether the issue should be marked as ""Won&apos;t Fix"" or ""Duplicate."" If the issue is marked as ""Won&apos;t Fix,"" it will be closed without any further action. If the issue is marked as ""Duplicate,"" it will be closed as a duplicate and reference the original issue where the problem is being addressed.
+
+Please note that the specific reasons for marking an issue as ""Won&apos;t Fix"" or ""Duplicate"" may vary depending on the project and its specific guidelines and policies."
+devrev-dev0,How is the priority of new conversations determined? ,['devrev-dev0---article-802'],The priority of new conversations is determined based on whether they are from existing or unidentified customer organizations. Conversations from existing customer organizations have higher priority than conversations from new or unidentified customer organizations.
+devrev-dev0,"What are the key tags available for categorizing issues, and how are they used in issue management?",['devrev-dev0---article-832'],"The provided information does not mention any specific key tags available for categorizing issues in DevRev. Therefore, it can be assumed that there are no predefined key tags for issue categorization in DevRev. However, users can create custom tags to categorize and manage their issues based on their specific requirements. These custom tags can be used to classify issues according to different criteria such as priority, type, module, or any other relevant classification. By assigning appropriate tags to issues, users can easily filter and search for specific types of issues, track progress, and prioritize work accordingly."
+devrev-dev0,"What is the purpose of the ""Hold"" stage in conversations?",['devrev-dev0---article-802'],"The purpose of the ""Hold"" stage in conversations is to indicate that the resolution of the conversation is dependent on some external factor or action. This could include waiting for a response from someone other than the customer experience engineer, such as a subject matter expert, manager, or developer. It could also involve the completion of other work items, such as tickets or issues. The conversation remains on hold until the dependencies are resolved, at which point it transitions back to the ""Needs Response"" stage for the customer experience engineer&apos;s attention."
+devrev-dev0,How does the routing process ensure that customer inquiries are directed to the appropriate team for efficient resolution?,['devrev-dev0---article-906'],"The routing process in DevRev ensures that customer inquiries are directed to the appropriate team for efficient resolution by considering two factors: time and content.
+
+1. Time-based routing: DevRev allows you to assign tickets or conversations based on their time of creation. This feature is particularly useful when teams operate across different time zones. By considering the time of creation, the routing process can ensure that inquiries are directed to teams that are available and ready to handle them promptly.
+
+2. Content-based routing: DevRev also enables you to route inquiries to teams with expertise in specific parts of your product. By analyzing the content of the inquiry, the routing process can identify the relevant team that possesses the necessary knowledge and skills to provide an efficient resolution. This ensures that customers receive accurate and specialized support from the appropriate team.
+
+By combining time-based and content-based routing, DevRev ensures that customer inquiries are directed to the right team, maximizing efficiency and improving the overall customer support experience."
+devrev-dev0,How are business hours vs. calendar hours handled by the SLA policy in the platform? ,['devrev-dev0---article-808'],"The SLA policy in the platform allows you to specify whether the metrics (first response, next response, and full resolution) are calculated using calendar hours or business hours while defining breach and warning targets. 
+
+Business hours are typically defined as the hours during which your organization operates or provides support to customers. These hours can be customized based on your organization&apos;s working schedule.
+
+Calendar hours, on the other hand, include all hours of the day, regardless of whether they fall within your organization&apos;s business hours or not.
+
+By choosing either business hours or calendar hours, you can determine how the SLA policy calculates the time for meeting the breach and warning targets."
+devrev-dev0,Which metrics can be visualized for support analytics? ,['devrev-dev0---article-963'],"The support analytics dashboard provides various metrics that can be visualized. These metrics include:
+
+1. Blocker Tickets: This metric measures the number of tickets that are blocking the progress of customer support. It helps identify critical issues that need immediate attention.
+
+2. SLA Compliance: This metric tracks the compliance of support tickets with the defined Service Level Agreement (SLA). It helps monitor and improve response and resolution times.
+
+3. Customer Satisfaction: This metric measures the satisfaction level of customers based on their feedback or ratings. It helps assess the overall quality of support provided.
+
+Please note that not all metrics may be applicable to all filters, and a warning symbol is displayed if a particular filter is not applicable to a metric."
+devrev-dev0,How often does the analytics dashboard refresh? ,['devrev-dev0---article-963'],"The support analytics dashboard undergoes periodic refresh cycles. The last refresh time is displayed in the top right corner of the dashboard. In optimal scenarios, the data powering the support analytics metrics is no more than an hour old. This ensures that you have access to the latest and relevant information for informed decision-making."
+devrev-dev0,Which metrics are supported for analytics? ,['devrev-dev0---article-963'],"The support analytics provides a range of customer experience metrics. Some of the supported metrics include blocker tickets, SLA compliance, and customer satisfaction. These metrics can be explored in detail using dynamic filters and drill-through functionalities. However, not all filters apply to all metrics, and a warning symbol is displayed when a filter is not applicable to a particular metric."
+devrev-dev0,How do I create new tags for conversations? ,['devrev-dev0---article-958'],"To create new tags for conversations in DevRev, you need to define the tags in the manifest file. Here is an example of how to define a tag:
+
+```yaml
+tags:
+  - name: my-tag
+    description: My custom tag
+```
+
+In the above example, the tag name is ""my-tag"" and the description is ""My custom tag"". You can add multiple tags by adding more entries under the `tags` section in the manifest file.
+
+Once you have defined the tags in the manifest, you can use them to tag conversations in DevRev."
+devrev-dev0,"If I need to designate someone as a customer admin, what steps do I follow?",['devrev-dev0---article-806'],"To designate someone as a customer admin, follow these steps:
+
+1. Log in to your DevRev app with your registered email address.
+2. Go to Settings > User management > Groups > Customer Admins.
+3. Click on the ""Add User"" option in the top-right corner.
+4. Search for the customer whom you want to designate as a customer admin.
+5. Select the customer from the search results.
+6. Save the changes.
+
+Once the customer is designated as a customer admin, they will have access to view all the tickets raised by users from their organization."
+devrev-dev0,How do I enable the AI bot for automatic responses? ,['devrev-dev0---article-807'],"To enable the AI bot for automatic responses in DevRev, you can go to the Settings section and navigate to the Turing Answers tab. There, you will find a toggle to turn on the Turing Answers feature. Once enabled, the AI bot will automatically generate responses to user queries before they are assigned to support."
+devrev-dev0,How can I engage in conversations with support representatives through the customer portal?,['devrev-dev0---article-806'],"To engage in conversations with support representatives through the customer portal, you can follow these steps:
+
+1. Log in to the customer portal using your credentials.
+2. Navigate to the support section or the ticketing system.
+3. Find the ticket related to your inquiry or create a new ticket if one doesn&apos;t exist.
+4. Open the ticket and look for the conversation or messaging feature.
+5. Use the conversation feature to send messages to the support representative.
+6. Provide any additional information or seek clarification regarding your ticket.
+7. The support representative will respond to your messages, ensuring effective communication.
+
+Please note that the availability of the conversation feature may vary depending on the specific implementation of the customer portal by DevRev."
+devrev-dev0,"I&apos;d like to integrate knowledge base articles into the customer portal. How can I do that, and what are the options available?",['devrev-dev0---article-806'],"To integrate knowledge base articles into the customer portal, you have two options:
+
+1. Upload Articles: You can upload your articles directly to the DevRev application. To do this, follow these steps:
+   a. Log in to your DevRev app with your registered email address.
+   b. Go to Settings > Support > Knowledge base > Articles.
+   c. Click on the ""+Articles"" button to add new articles.
+   d. You can either add a link to your article or upload articles directly from your device.
+   e. Once you have added the articles, you can specify their status as either Draft, Published, or Private.
+
+2. Provide Links: If you have already hosted your articles on your website or any other publicly accessible platform, you can provide the links to those articles. To do this, follow these steps:
+   a. Log in to your DevRev app with your registered email address.
+   b. Go to Settings > Support > Knowledge base > Articles.
+   c. Click on the ""+Articles"" button to add new articles.
+   d. Instead of uploading the articles, provide the links to your articles in the designated field.
+   e. Once you have added the links, you can specify their status as either Draft, Published, or Private.
+
+Once the articles are published, your customers will be able to search for them on the customer portal by entering their queries in the search bar.
+
+If you need further assistance or have any other questions, feel free to ask!"
+devrev-dev0,How does the platform handle duplicate and deprecated issues? ,['devrev-dev0---article-830'],"When a new issue is created, it goes through a triage process. During this process, the issue is checked to see if it is a duplicate of an existing issue. If it is determined that the issue is a duplicate, it will be closed as such.
+
+If an issue is deemed to be invalid or cannot be fixed for other reasons, it may also be closed as ""won&apos;t fix"" during the triage process.
+
+This ensures that duplicate and deprecated issues are properly handled and closed, allowing the development team to focus on valid and actionable issues."
+devrev-dev0,"In the case of multiple active metrics, how does DevRev determine which one to display in the vista?",['devrev-dev0---article-808'],"When there are multiple active metrics for a ticket or conversation, DevRev determines which one to display in the vista based on the metric that is closest to breaching. For example, if there are both first response time and full resolution time metrics active, and the first response is due in 5 minutes but the full resolution is due in 1 day, the vista will display the first response time of 5 minutes."
+devrev-dev0,"When there&apos;s a major issue affecting many users, how does the support team handle communication using tickets?",['devrev-dev0---article-806'],"When there is a major issue affecting many users, the support team can handle communication using tickets by creating a dedicated ticket for the issue. This ticket can be used to provide updates and communicate with all affected users simultaneously. Users can track the progress of the ticket and view real-time updates to stay informed about the issue. This ensures effective communication and allows the support team to address the concerns of all users efficiently."
+devrev-dev0,What are the different types of policies that can be created within an SLA?,['devrev-dev0---article-808'],"Within an SLA, you can create two types of policies: Ticket Policy and Conversation Policy."
+devrev-dev0,Are custom SLA rules supported? ,['devrev-dev0---article-923'],"Yes, custom SLA rules are supported in DevRev. You can define SLA policies using custom fields created for your tickets. This allows you to define response and resolution time SLAs based on a specific field of a ticket."
+devrev-dev0,Can customers create tickets without using the widget? ,['devrev-dev0---article-926'],"Yes, customers can create tickets directly without using the widget."
+devrev-dev0,Can customers start conversations through channels other than the widget?,['devrev-dev0---article-787'],"Yes, customers can start conversations through channels other than the widget. DevRev provides a snap-in for email, WhatsApp, and Slack, which allows customers to initiate conversations through these platforms as well."
+devrev-dev0,"Is historical data retained within Support Analytics, even if associated elements are deleted or changed?",['devrev-dev0---article-963'],"Yes, historical data is retained within Support Analytics even if associated elements are deleted or changed. For example, if a part or ticket is deleted, the data related to that part or ticket will still persist in the analytics. This allows for the analysis of past customer requests, problems, and interactions, even if the association is broken."
+devrev-dev0,Is there a way for me to save my customized view of tickets for future reference or quick access?,['devrev-dev0---article-788'],"Yes, in DevRev, you can save your customized view of tickets by creating a vista. After applying filters, sorting, grouping, or customizing the default view of tickets, a ""Save as"" button will appear in the upper-right corner. Click on it, give the list a name and description, and save it. This will create a vista that will be saved in the ""My list"" section at the bottom of the left-side navigation bar. You can access and use this saved vista for future reference or quick access."
+devrev-dev0,"Can SLA metrics be paused under certain conditions, and if so, what events trigger this pause?",['devrev-dev0---article-808'],"Yes, SLA metrics can be paused under certain conditions. The events that trigger the pause of SLA metrics are as follows:
+
+For tickets:
+- When a ticket moves to the ""Awaiting Customer Response"" state, the First Response Time and Next Response Time metrics are paused.
+- When a ticket is resolved or closed, all SLA metrics for that ticket are paused.
+
+For conversations:
+- When a conversation moves to the ""Waiting on User"" state, the Next Response Time and Full Resolution Time metrics are paused.
+- When a conversation is marked as spam, all SLA metrics for that conversation are paused.
+- When a conversation moves to the ""Resolved"" or ""Archived"" state, the Full Resolution Time metric is paused.
+
+Please note that these are the specific events that trigger the pause of SLA metrics."
+devrev-dev0,Are there slash commands for managing conversations in devrev? ,['devrev-dev0---article-816'],"Yes, there are slash commands available for managing conversations in DevRev. After installing the slash commands snap-in, you can use the / command in text fields such as Inbox > Conversation > Customer chat/Discussions to execute commands and perform various actions related to conversation management."
+devrev-dev0,"Are there any special considerations or features for issues tagged as ""autonomous,"" and how do they differ from regular issues?",['devrev-dev0---article-836'],"Yes, there are special considerations and features for issues tagged as ""autonomous"" in DevRev. Autonomous issues are automatically created when a new branch or pull request is created, and they are not explicitly associated with an existing issue.
+
+Here are some key points about autonomous issues:
+
+1. Automatic Creation: When a new branch or pull request is created, and it is not explicitly associated with an existing issue, DevRev automatically creates an autonomous issue for you. This allows you to track your coding activity even if you haven&apos;t explicitly linked it to a specific issue.
+
+2. Default Assignment: Autonomous issues are assigned to a default part in DevRev. The ""Default part to assign autonomous issues to"" setting determines which part the autonomous issues will be assigned to. This helps in organizing and categorizing your work.
+
+3. Issue Details: DevRev tries to fill in the details for autonomous issues based on the branch or pull request information. However, you have the flexibility to rename the autonomous issue or associate it with a different existing issue if needed.
+
+4. Automation: Autonomous issues follow the same automation rules as regular issues. For example, if a GitHub event is associated with an autonomous issue, the status of that issue will be automatically updated based on the rules defined in DevRev.
+
+Overall, autonomous issues provide a convenient way to track your coding activity without the need for explicit issue association. They offer similar functionality to regular issues in terms of tracking progress, status updates, and automation."
+devrev-dev0,Is there a process for marking conversations that have been incorrectly categorized as spam?,['devrev-dev0---article-802'],"Yes, there is a process for marking conversations that have been incorrectly categorized as spam. When a conversation is marked as spam, it is moved to the ""Suspended"" stage to minimize noise in the support inbox. However, if upon review, the suspended conversation is deemed valid, it can be transitioned back to the ""New"" stage by the support team. This allows the team to address the user&apos;s concern and ensure that valid conversations are not mistakenly categorized as spam."
+devrev-dev0,Is whatsapp communication for customers supported? ,['devrev-dev0---article-825'],"Yes, WhatsApp communication for customers is supported through the WhatsApp snap-in in DevRev. You can install the snap-in from the DevRev marketplace and set up a connection to sync WhatsApp messages with the DevRev Inbox."
+devrev-dev0,Can I apply different filters to the analytics dashboard? ,['devrev-dev0---article-964'],"Yes, you can apply different filters to the analytics dashboard in order to obtain more specific analytics. The default range filter allows you to view metrics for a specific timeframe. Additionally, you can add other filters to further refine the analytics and obtain more specific insights."
+devrev-dev0,Can I customize the customer portal with my own brand? ,['devrev-dev0---article-806'],"Yes, you can customize the customer portal with your own brand in DevRev. You can go to Settings > Support > Portal Settings to customize the look of your support portal. You can enter your site name, upload your company logo, set a banner image, choose light/dark mode, select an accent color, and add social media and text links. Additionally, you can enable ticket creation and assign default owner and part. Once you make the desired changes, you can click ""Set live"" to make them visible on your portal."
+devrev-dev0,Can you guide me through finding specific tickets or filtering them based on certain criteria within the support system?,['devrev-dev0---article-964'],"Yes, you can find specific tickets or filter them based on certain criteria within the support system by using the filters available in the tickets dashboard. The default range filter allows you to view metrics for a specific timeframe. 
+
+To filter tickets based on certain criteria, you can add additional filters. These filters can help you obtain more specific analytics and find the tickets you are looking for. 
+
+For example, you can filter tickets based on severity levels such as blocker, critical, high, medium, or low. This can help you identify and prioritize tickets that need urgent attention. 
+
+You can also filter tickets based on other criteria such as ticket status, customer name, ticket type, or any other relevant attributes available in the support system. 
+
+By applying these filters, you can narrow down the list of tickets and find the specific ones you are looking for."
+devrev-dev0,Can I link multiple child sssues to a single parent issue? ,['devrev-dev0---article-830'],"Yes, you can link multiple child issues to a single parent issue in DevRev. This allows you to create a hierarchical relationship between the parent issue and its children. However, please note that an issue can have only one parent. If you try to add a parent to an issue that already has one, it will fail."
+devrev-dev0,Can I pause SLA metric tracking temporarily? ,['devrev-dev0---article-808'],"Yes, you can pause SLA metric tracking temporarily. The metric can be paused based on certain conditions, such as when a ticket moves to ""Awaiting Customer Response"" or when a conversation moves to ""Waiting on User"". When the metric is paused, the time spent during the pause is not included in the calculation of the SLA metric."
+devrev-dev0,Is there a way for me to give feedback on the suggestions provided by Turing? How does that work?,['devrev-dev0---article-804'],"Yes, you can provide feedback on the suggestions provided by Turing. After reviewing the suggestions, you can give a thumbs-up (👍) if you find them helpful or a thumbs-down (👎) if you find them unhelpful. This feedback helps Turing AI learn and improve its suggestions over time, leading to a more effective support experience."
+devrev-dev0,Is there a way for me to search for articles and find solutions to my queries on the customer portal?,['devrev-dev0---article-806'],"Yes, you can search for articles and find solutions to your queries on the customer portal. The portal provides a search functionality that allows you to enter keywords or phrases related to your query. It will then display relevant articles that may contain the information you are looking for. This self-service feature empowers you to find answers on your own without having to wait for support team assistance."
+devrev-dev0,Can I set up a CSAT survey for customers? ,['devrev-dev0---article-923'],"Yes, you can set up a CSAT survey for customers using our CSAT snap-in. It allows you to configure the survey to match your branding and objectives."
+devrev-dev0,Can I set up SLA rules for tracking in the DevRev support app? ,['devrev-dev0---article-808'],"Yes, you can set up SLA rules for tracking in the DevRev support app. You can apply SLAs to conversations or tickets and track their metrics based on the policies defined in the app. You can also set a default SLA for new customers or apply SLAs manually."
+devrev-dev0,"How customizable is the customer portal? Can I change its appearance to match our company branding, and if so, how?",['devrev-dev0---article-806'],"You can customize the look of your customer portal in DevRev to match your company branding. Here are the steps to customize the appearance:
+
+1. Go to Settings > Support > Portal Settings.
+2. Under Configuration, you can enter your site name and upload your company logo.
+3. You can also turn on the footer and add your social media and text links.
+4. Under Styling, you can upload a banner image in the ratio of 6:1.
+5. You can choose between light and dark mode for appearance and select your accent color.
+6. Under Tabs, you can enable ticket creation from the portal and assign default owner and part.
+7. You can also enable the banner toggle and craft your own title and description.
+8. Once you have made the desired changes, click on ""Set live"" to make the changes visible on your portal.
+
+Please note that the level of customization may vary depending on your admin access and the specific features available in your instance of DevRev."
