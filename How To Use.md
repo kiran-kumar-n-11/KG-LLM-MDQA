@@ -19,7 +19,7 @@
   - General command to run: ```python main2.py --retriever "KGP w/o LLM" --k 5 --kg "{graph_pickle_name without '.pkl' extension}"```
   - This will create json file in **Pipeline/result/Devrev/** folder which contains question, answer, corpus, supports etc., details.
   - For KGP w/o LLM retriever, the corpus of the created json file contains list of retrieved chunks of format list([{title},{chunk},{level}])
-  - Where level = 0  implies, it is node selected from graph based on graph initially
+  - Where level = 0  implies, it is node selected from graph based on (query, nodes) similarity initially
   - level = 1 implies, it is neighbour of level=0 nodes
   - level = 2 implies, it is neighbour of level=1 nodes and so on
 - **Step-4**:
