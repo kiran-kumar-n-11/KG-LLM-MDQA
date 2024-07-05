@@ -23,4 +23,5 @@
   - level = 1 implies, it is neighbour of level=0 nodes
   - level = 2 implies, it is neighbour of level=1 nodes and so on
 - **Step-4**:
-  - **Result Analysis.ipynb** can be used for evaluation using the 'result/devrev/' files.   
+  - **Pipeline/Result Analysis.ipynb** can be used for evaluation using the 'result/devrev/' files.
+  - **Pipeline/RetrievalFlow.ipynb** can be used to know the retrieved order for required sample. 
